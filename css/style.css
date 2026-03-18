@@ -161,11 +161,17 @@ h1, h2, h3, h4 {
   justify-content: space-between;
 }
 
+.navbar__logo {
+  display: block;
+  height: 40px;
+  overflow: hidden;
+}
+
 .navbar__logo-img {
-  height: 120px;
+  height: 200px;
   width: auto;
-  object-fit: contain;
-  margin: -40px 0;
+  margin-top: -80px;
+  margin-left: -60px;
 }
 
 .nav {
@@ -739,11 +745,17 @@ h1, h2, h3, h4 {
   gap: 40px;
 }
 
+.footer__logo-wrap {
+  height: 60px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
 .footer__logo {
-  height: 160px;
+  height: 260px;
   width: auto;
-  margin: -40px 0 -24px -40px;
-  object-fit: contain;
+  margin-top: -100px;
+  margin-left: -80px;
 }
 
 .footer__tagline {
