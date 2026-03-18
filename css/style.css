@@ -145,7 +145,7 @@ h1, h2, h3, h4 {
   transform: translateX(-50%);
   width: fit-content;
   z-index: 1000;
-  padding: 8px 8px 8px 28px;
+  padding: 6px 6px 6px 24px;
   background: rgba(248, 247, 247, 0.95);
   backdrop-filter: blur(16px);
   border-radius: 100px;
@@ -155,7 +155,6 @@ h1, h2, h3, h4 {
 
 .navbar--scrolled {
   background: rgba(248, 247, 247, 0.98);
-  padding: 8px 8px 8px 28px;
   box-shadow: 0 4px 28px rgba(0, 0, 0, 0.12);
 }
 
@@ -168,17 +167,19 @@ h1, h2, h3, h4 {
 
 .navbar__logo {
   display: block;
-  height: 30px;
-  overflow: hidden;
+  width: 130px;
+  height: 40px;
   margin-right: 24px;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .navbar__logo-img {
-  height: 160px;
+  display: block;
+  height: 200px;
   width: auto;
-  margin-top: -65px;
-  margin-left: -46px;
+  margin-top: -72px;
+  margin-left: -72px;
 }
 
 .nav {
@@ -214,10 +215,10 @@ h1, h2, h3, h4 {
 .nav__link--cta {
   background: #47141e;
   color: #f8f7f7;
-  padding: 10px 24px;
+  padding: 12px 28px;
   border-radius: 50px;
   font-weight: 500;
-  margin-left: 4px;
+  margin-left: 8px;
 }
 
 .nav__link--cta::after {
