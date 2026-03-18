@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alisa Allawy — Multimedia Designer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="top">
+    <div class="container navbar__inner">
+      <a href="#top" class="navbar__logo">
+        <img src="assets/logo-icon.svg" alt="Alisa Allawy" class="navbar__logo-img">
+      </a>
+      <button class="nav__toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#testimonials" class="nav__link">Testimonials</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+        <a href="#contact" class="nav__link nav__link--cta">Let's Talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__label">Multimedia Designer</p>
+        <h1 class="hero__title">Professional<br>Creative<br><span class="hero__title--accent">Multimedia Design</span></h1>
+        <p class="hero__subtitle">Crafting compelling visual stories through UX design, branding, 3D, motion, and editorial design — bringing ideas to life across every medium.</p>
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__image-wrapper">
+          <div class="hero__image-placeholder">
+            <svg viewBox="0 0 500 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="500" height="600" rx="20" fill="#47141e" opacity="0.08"/>
+              <circle cx="250" cy="240" r="80" fill="#47141e" opacity="0.15"/>
+              <rect x="150" y="360" width="200" height="12" rx="6" fill="#47141e" opacity="0.1"/>
+              <rect x="175" y="390" width="150" height="12" rx="6" fill="#47141e" opacity="0.08"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STATEMENT ===================== -->
+  <section class="statement reveal">
+    <div class="container">
+      <div class="statement__divider">
+        <span class="statement__dot"></span>
+        <span class="statement__dot"></span>
+        <span class="statement__dot"></span>
+      </div>
+      <blockquote class="statement__quote">
+        Every design tells a story, capturing ideas with a <em>seamless blend of art, technology, and emotion.</em>
+      </blockquote>
+      <p class="statement__author">— Alisa Allawy</p>
+    </div>
+  </section>
+
+  <!-- ===================== WHY WORK WITH ME ===================== -->
+  <section class="why-me reveal" id="about">
+    <div class="container">
+      <h2 class="section__title">Why work with me?</h2>
+      <p class="section__subtitle">I bring a multidisciplinary approach, combining creativity across mediums to deliver cohesive, impactful design solutions.</p>
+      <div class="why-me__grid">
+        <div class="why-me__card">
+          <div class="why-me__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="#47141e" stroke-width="2"/><path d="M14 20l4 4 8-8" stroke="#47141e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="why-me__card-title">Multi-Disciplinary Expertise</h3>
+          <p class="why-me__card-text">From UX design to 3D modeling to editorial layouts — I bring versatile skills that connect across mediums for unified brand experiences.</p>
+        </div>
+        <div class="why-me__card">
+          <div class="why-me__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="4" y="4" width="32" height="32" rx="4" stroke="#47141e" stroke-width="2"/><path d="M12 20h16M20 12v16" stroke="#47141e" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="why-me__card-title">Detail-Oriented Process</h3>
+          <p class="why-me__card-text">Every pixel, every frame, every page is crafted with precision. I believe great design lives in the details that most people overlook.</p>
+        </div>
+        <div class="why-me__card">
+          <div class="why-me__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 4l4 8h8l-6 5 2 9-8-5-8 5 2-9-6-5h8z" stroke="#47141e" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="why-me__card-title">Creative Problem Solving</h3>
+          <p class="why-me__card-text">I don't just make things look good — I solve visual communication challenges with thoughtful, strategic design thinking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PORTFOLIO ===================== -->
+  <section class="portfolio reveal" id="work">
+    <div class="container">
+      <h2 class="section__title">A glimpse through my<br>perspective</h2>
+      <div class="filter">
+        <button class="filter__btn filter__btn--active" data-filter="all">All Projects</button>
+        <button class="filter__btn" data-filter="ux">UX Design</button>
+        <button class="filter__btn" data-filter="branding">Branding</button>
+        <button class="filter__btn" data-filter="3d">3D</button>
+        <button class="filter__btn" data-filter="vfx">VFX</button>
+        <button class="filter__btn" data-filter="editorial">Editorial</button>
+      </div>
+      <div class="portfolio__grid">
+
+        <!-- Project 1: UX Design -->
+        <div class="project-card" data-category="ux">
+          <div class="project-card__image">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#e8e4e0"/>
+              <rect x="40" y="40" width="140" height="20" rx="4" fill="#a9927d" opacity="0.5"/>
+              <rect x="40" y="80" width="320" height="120" rx="8" fill="#47141e" opacity="0.12"/>
+              <circle cx="200" cy="140" r="30" fill="#47141e" opacity="0.15"/>
+              <rect x="40" y="220" width="100" height="12" rx="4" fill="#5f503f" opacity="0.3"/>
+              <rect x="40" y="244" width="200" height="10" rx="4" fill="#0c0b0a" opacity="0.1"/>
+            </svg>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__category">UX Design</span>
+            <h3 class="project-card__title">HealthSync App</h3>
+            <p class="project-card__desc">End-to-end UX design for a health tracking mobile application with intuitive user flows and accessibility-first approach.</p>
+          </div>
+        </div>
+
+        <!-- Project 2: UX Design -->
+        <div class="project-card" data-category="ux">
+          <div class="project-card__image">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#ddd9d5"/>
+              <rect x="30" y="30" width="160" height="240" rx="12" fill="#f8f7f7"/>
+              <rect x="45" y="60" width="130" height="20" rx="4" fill="#47141e" opacity="0.2"/>
+              <rect x="45" y="100" width="130" height="60" rx="6" fill="#a9927d" opacity="0.2"/>
+              <rect x="210" y="30" width="160" height="240" rx="12" fill="#f8f7f7"/>
+              <rect x="225" y="60" width="130" height="20" rx="4" fill="#47141e" opacity="0.2"/>
+              <circle cx="290" cy="170" r="40" fill="#5f503f" opacity="0.15"/>
+            </svg>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__category">UX Design</span>
+            <h3 class="project-card__title">EduFlow Platform</h3>
+            <p class="project-card__desc">Redesigning an e-learning platform with improved navigation, engagement patterns, and student dashboard experience.</p>
+          </div>
+        </div>
+
+        <!-- Project 3: Branding -->
+        <div class="project-card" data-category="branding">
+          <div class="project-card__image">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#47141e" opacity="0.9"/>
+              <circle cx="200" cy="120" r="50" stroke="#a9927d" stroke-width="2" fill="none"/>
+              <text x="200" y="132" font-family="serif" font-size="36" fill="#a9927d" text-anchor="middle">A</text>
+              <rect x="120" y="200" width="160" height="8" rx="4" fill="#f8f7f7" opacity="0.3"/>
+              <rect x="150" y="220" width="100" height="6" rx="3" fill="#f8f7f7" opacity="0.15"/>
+            </svg>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__category">Branding</span>
+            <h3 class="project-card__title">Aurum Boutique</h3>
+            <p class="project-card__desc">Complete brand identity for a luxury boutique — logo, typography system, color palette, and comprehensive brand guidelines.</p>
+          </div>
+        </div>
+
+        <!-- Project 4: Branding -->
+        <div class="project-card" data-category="branding">
+          <div class="project-card__image">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#f0ece8"/>
+              <rect x="40" y="40" width="150" height="100" rx="8" fill="#5f503f" opacity="0.15"/>
+              <rect x="210" y="40" width="150" height="100" rx="8" fill="#a9927d" opacity="0.2"/>
+              <rect x="40" y="160" width="320" height="100" rx="8" fill="#47141e" opacity="0.08"/>
+              <rect x="60" y="185" width="120" height="10" rx="4" fill="#47141e" opacity="0.2"/>
+              <rect x="60" y="205" width="200" height="8" rx="4" fill="#0c0b0a" opacity="0.08"/>
+              <rect x="60" y="225" width="160" height="8" rx="4" fill="#0c0b0a" opacity="0.06"/>
+            </svg>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__category">Branding</span>
+            <h3 class="project-card__title">Terra Coffee Co.</h3>
+            <p class="project-card__desc">Earthy, warm brand identity for an artisan coffee roastery — from packaging design to social media templates.</p>
+          </div>
+        </div>
+
+        <!-- Project 5: Branding -->
+        <div class="project-card" data-category="branding">
+          <div class="project-card__image">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#1a1a1a"/>
+              <rect x="80" y="60" width="240" height="180" rx="6" fill="#f8f7f7" opacity="0.05"/>
+              <path d="M160 100 L200 160 L240 100 Z" fill="#a9927d" opacity="0.4"/>
+              <circle cx="200" cy="180" r="25" fill="#47141e" opacity="0.5"/>
+              <rect x="140" y="230" width="120" height="8" rx="4" fill="#f8f7f7" opacity="0.2"/>
+            </svg>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__category">Branding</span>
+            <h3 class="project-card__title">Vertex Studios</h3>
+            <p class="project-card__desc">Bold, modern brand identity for a creative production studio — logo system, motion guidelines, and stationery suite.</p>
+          </div>
+        </div>
+
+        <!-- Project 6: 3D Model -->
+        <div class="project-card" data-category="3d">
+          <div class="project-card__image">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#2a2226"/>
+              <path d="M200 60 L300 130 L300 220 L200 260 L100 220 L100 130 Z" stroke="#a9927d" stroke-width="1.5" fill="#a9927d" opacity="0.1"/>
+              <path d="M200 60 L200 260 M200 60 L300 130 M200 60 L100 130 M200 260 L300 220 M200 260 L100 220 M100 130 L300 130 M100 220 L300 220 M100 130 L100 220 M300 130 L300 220" stroke="#a9927d" stroke-width="0.8" opacity="0.4"/>
+              <circle cx="200" cy="160" r="40" fill="#47141e" opacity="0.3"/>
+            </svg>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__category">3D Modeling</span>
+            <h3 class="project-card__title">Abstract Sculpture Series</h3>
+            <p class="project-card__desc">A collection of abstract 3D sculptures exploring organic forms and geometric tension, rendered with cinematic lighting.</p>
+          </div>
+        </div>
+
+        <!-- Project 7: VFX -->
+        <div class="project-card" data-category="vfx">
+          <div class="project-card__image">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#1c1118"/>
+              <circle cx="200" cy="150" r="80" fill="#47141e" opacity="0.3"/>
+              <circle cx="200" cy="150" r="50" fill="#47141e" opacity="0.2"/>
+              <circle cx="200" cy="150" r="20" fill="#a9927d" opacity="0.4"/>
+              <path d="M120 80 Q200 20 280 80" stroke="#a9927d" stroke-width="1" opacity="0.3"/>
+              <path d="M100 220 Q200 280 300 220" stroke="#a9927d" stroke-width="1" opacity="0.3"/>
+              <rect x="60" y="270" width="60" height="4" rx="2" fill="#f8f7f7" opacity="0.15"/>
+              <rect x="340" y="270" width="20" height="4" rx="2" fill="#47141e" opacity="0.4"/>
+            </svg>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__category">VFX</span>
+            <h3 class="project-card__title">Lumina — Title Sequence</h3>
+            <p class="project-card__desc">Cinematic VFX title sequence featuring particle simulations, dynamic typography, and atmospheric lighting effects.</p>
+          </div>
+        </div>
+
+        <!-- Project 8: Magazine -->
+        <div class="project-card" data-category="editorial">
+          <div class="project-card__image">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#f0ece8"/>
+              <rect x="60" y="30" width="130" height="240" rx="4" fill="#fff" stroke="#ddd" stroke-width="1"/>
+              <rect x="70" y="45" width="110" height="14" rx="2" fill="#47141e" opacity="0.6"/>
+              <rect x="70" y="70" width="110" height="80" rx="2" fill="#a9927d" opacity="0.15"/>
+              <rect x="70" y="165" width="80" height="6" rx="2" fill="#0c0b0a" opacity="0.15"/>
+              <rect x="70" y="178" width="110" height="4" rx="2" fill="#0c0b0a" opacity="0.08"/>
+              <rect x="70" y="188" width="100" height="4" rx="2" fill="#0c0b0a" opacity="0.08"/>
+              <rect x="70" y="198" width="90" height="4" rx="2" fill="#0c0b0a" opacity="0.08"/>
+              <rect x="210" y="30" width="130" height="240" rx="4" fill="#fff" stroke="#ddd" stroke-width="1"/>
+              <rect x="220" y="45" width="110" height="100" rx="2" fill="#5f503f" opacity="0.12"/>
+              <rect x="220" y="160" width="80" height="8" rx="2" fill="#47141e" opacity="0.4"/>
+              <rect x="220" y="180" width="110" height="4" rx="2" fill="#0c0b0a" opacity="0.08"/>
+              <rect x="220" y="190" width="100" height="4" rx="2" fill="#0c0b0a" opacity="0.08"/>
+              <rect x="220" y="200" width="110" height="4" rx="2" fill="#0c0b0a" opacity="0.08"/>
+            </svg>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__category">Editorial</span>
+            <h3 class="project-card__title">Forma Magazine</h3>
+            <p class="project-card__desc">Art direction and layout design for a quarterly design magazine — 48 pages of editorial spreads, typography, and visual storytelling.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="portfolio__cta">
+        <a href="#contact" class="btn btn--outline">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services reveal" id="services">
+    <div class="container">
+      <h2 class="section__title">How can I assist you today?</h2>
+      <p class="section__subtitle">I offer a wide range of multimedia design services to help bring your vision to life.</p>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="2" y="6" width="32" height="24" rx="3" stroke="#47141e" stroke-width="2"/><circle cx="18" cy="18" r="5" stroke="#47141e" stroke-width="2"/><path d="M2 12h32" stroke="#47141e" stroke-width="2"/></svg>
+          </div>
+          <h3 class="service-card__title">UX/UI Design</h3>
+          <p class="service-card__text">User-centered digital experiences — wireframes, prototypes, and polished interfaces for web and mobile.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="14" stroke="#47141e" stroke-width="2"/><path d="M18 8v10l6 4" stroke="#47141e" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Brand Identity</h3>
+          <p class="service-card__text">Logos, typography systems, color palettes, and comprehensive brand guidelines that tell your story.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18 4L32 14v16L18 32 4 30V14z" stroke="#47141e" stroke-width="2" stroke-linejoin="round"/><path d="M18 4v28M4 14l28 0M4 30l14-16 14 16" stroke="#47141e" stroke-width="1.5" opacity="0.4"/></svg>
+          </div>
+          <h3 class="service-card__title">3D Modeling</h3>
+          <p class="service-card__text">Stunning 3D models and renders for product visualization, abstract art, and immersive digital content.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="6,4 30,18 6,32" stroke="#47141e" stroke-width="2" fill="none" stroke-linejoin="round"/><circle cx="24" cy="10" r="4" stroke="#47141e" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="service-card__title">VFX & Motion</h3>
+          <p class="service-card__text">Visual effects, motion graphics, and title sequences that captivate audiences and elevate your content.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="4" y="2" width="28" height="32" rx="2" stroke="#47141e" stroke-width="2"/><rect x="8" y="6" width="12" height="8" rx="1" fill="#47141e" opacity="0.15"/><rect x="8" y="18" width="20" height="2" rx="1" fill="#47141e" opacity="0.2"/><rect x="8" y="24" width="20" height="2" rx="1" fill="#47141e" opacity="0.2"/><rect x="8" y="28" width="14" height="2" rx="1" fill="#47141e" opacity="0.2"/></svg>
+          </div>
+          <h3 class="service-card__title">Editorial Design</h3>
+          <p class="service-card__text">Magazine layouts, publication design, and print-ready artwork with meticulous attention to typography and grid systems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE ===================== -->
+  <section class="marquee">
+    <div class="marquee__track">
+      <span class="marquee__item">UX Design</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Branding</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">3D Modeling</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Visual Effects</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Editorial Design</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Motion Graphics</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Art Direction</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">UX Design</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Branding</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">3D Modeling</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Visual Effects</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Editorial Design</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Motion Graphics</span>
+      <span class="marquee__separator">&bull;</span>
+      <span class="marquee__item">Art Direction</span>
+      <span class="marquee__separator">&bull;</span>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials reveal" id="testimonials">
+    <div class="container">
+      <h2 class="section__title">Hear from My Clients</h2>
+      <div class="testimonials__visual">
+        <div class="testimonials__image-placeholder">
+          <svg viewBox="0 0 800 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="800" height="350" rx="12" fill="#1a1118"/>
+            <rect x="50" y="50" width="300" height="250" rx="8" fill="#47141e" opacity="0.2"/>
+            <rect x="450" y="50" width="300" height="250" rx="8" fill="#47141e" opacity="0.15"/>
+            <line x1="400" y1="320" x2="700" y2="280" stroke="#a9927d" stroke-width="2" opacity="0.3"/>
+          </svg>
+        </div>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+          </div>
+          <p class="testimonial-card__text">"Alisa transformed our brand from generic to unforgettable. Her multidisciplinary approach meant we got a cohesive identity across every touchpoint."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">S</div>
+            <div>
+              <p class="testimonial-card__name">Sarah Mitchell</p>
+              <p class="testimonial-card__role">CEO, Aurum Boutique</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+          </div>
+          <p class="testimonial-card__text">"The UX redesign Alisa delivered exceeded all expectations. Our user engagement increased by 40% within the first month of launch."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">R</div>
+            <div>
+              <p class="testimonial-card__name">Rami Hassan</p>
+              <p class="testimonial-card__role">Product Lead, EduFlow</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#a9927d"><path d="M8 0l2.5 5 5.5.8-4 3.9.9 5.3L8 12.5 3.1 15l.9-5.3-4-3.9L5.5 5z"/></svg>
+          </div>
+          <p class="testimonial-card__text">"Working with Alisa on our VFX title sequence was incredible. She brought a cinematic quality we didn't think was possible on our timeline."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">D</div>
+            <div>
+              <p class="testimonial-card__name">David Chen</p>
+              <p class="testimonial-card__role">Director, Vertex Studios</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="faq reveal" id="faq">
+    <div class="container">
+      <h2 class="section__title">Have Questions?</h2>
+      <div class="faq__list">
+        <div class="faq__item faq__item--open">
+          <button class="faq__question">
+            <span>What services do you offer?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>I offer a full range of multimedia design services including UX/UI design, brand identity, 3D modeling and visualization, visual effects and motion graphics, and editorial/magazine layout design. Each project is tailored to your specific needs and goals.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            <span>What is your typical project timeline?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Timelines vary by project scope. A brand identity typically takes 3-4 weeks, UX design projects 4-6 weeks, and editorial projects 2-3 weeks. I always provide a detailed timeline during our initial consultation.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            <span>Do you work with clients remotely?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Absolutely! I work with clients worldwide. I use collaborative tools like Figma, Slack, and Zoom to ensure seamless communication and real-time feedback throughout the design process.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            <span>What does your design process look like?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>My process follows four phases: Discovery (understanding your goals and audience), Concept (exploration and ideation), Refinement (iterating on the chosen direction), and Delivery (final assets and handoff). I keep you involved and informed at every step.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            <span>How do I get started?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Simply reach out through the contact form below or send me an email. I'll schedule a free discovery call where we can discuss your project, goals, and how I can help bring your vision to life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT / CTA FOOTER ===================== -->
+  <section class="cta-footer" id="contact">
+    <div class="container">
+      <h2 class="cta-footer__title">Great designs begin with a<br>conversation</h2>
+      <p class="cta-footer__text">Ready to bring your creative vision to life? Let's connect and build something extraordinary together.</p>
+      <div class="cta-footer__actions">
+        <a href="mailto:hello@alisaallawy.com" class="btn btn--white">Start a Project</a>
+        <a href="mailto:hello@alisaallawy.com" class="btn btn--ghost">hello@alisaallawy.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo-full.svg" alt="Alisa Allawy" class="footer__logo">
+        <p class="footer__tagline">Multimedia Designer crafting compelling<br>visual stories across every medium.</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4 class="footer__heading">Navigation</h4>
+          <a href="#about" class="footer__link">About</a>
+          <a href="#work" class="footer__link">Work</a>
+          <a href="#services" class="footer__link">Services</a>
+          <a href="#contact" class="footer__link">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Social</h4>
+          <a href="#" class="footer__link">Behance</a>
+          <a href="#" class="footer__link">Dribbble</a>
+          <a href="#" class="footer__link">LinkedIn</a>
+          <a href="#" class="footer__link">Instagram</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Alisa Allawy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
