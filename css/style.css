@@ -145,60 +145,55 @@ h1, h2, h3, h4 {
   transform: translateX(-50%);
   width: auto;
   z-index: 1000;
-  padding: 10px 12px 10px 32px;
-  background: #1a1a1a;
+  padding: 8px 8px 8px 28px;
+  background: rgba(248, 247, 247, 0.95);
   backdrop-filter: blur(16px);
   border-radius: 100px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
 
 .navbar--scrolled {
-  background: #1a1a1a;
-  backdrop-filter: blur(16px);
-  padding: 10px 12px 10px 32px;
-  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.2);
+  background: rgba(248, 247, 247, 0.98);
+  padding: 8px 8px 8px 28px;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.12);
 }
 
 .navbar__inner {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0;
   padding: 0;
 }
 
 .navbar__logo {
   display: block;
-  height: 28px;
+  height: 30px;
   overflow: hidden;
-  margin-right: 12px;
+  margin-right: 24px;
+  flex-shrink: 0;
 }
 
 .navbar__logo-img {
-  height: 140px;
+  height: 160px;
   width: auto;
-  margin-top: -56px;
-  margin-left: -40px;
-  filter: brightness(0) invert(1);
+  margin-top: -65px;
+  margin-left: -46px;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 28px;
 }
 
 .nav__link {
   font-size: 0.85rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.85);
+  color: #0c0b0a;
   position: relative;
   letter-spacing: 0.01em;
   white-space: nowrap;
-}
-
-.nav__link:hover {
-  color: #ffffff;
 }
 
 .nav__link::after {
@@ -208,7 +203,7 @@ h1, h2, h3, h4 {
   left: 0;
   width: 0;
   height: 1.5px;
-  background: #ffffff;
+  background: #47141e;
   transition: width 0.3s;
 }
 
@@ -217,11 +212,12 @@ h1, h2, h3, h4 {
 }
 
 .nav__link--cta {
-  background: #f8f7f7;
-  color: #1a1a1a;
+  background: #47141e;
+  color: #f8f7f7;
   padding: 10px 24px;
   border-radius: 50px;
   font-weight: 500;
+  margin-left: 4px;
 }
 
 .nav__link--cta::after {
@@ -229,7 +225,7 @@ h1, h2, h3, h4 {
 }
 
 .nav__link--cta:hover {
-  background: #ffffff;
+  background: #5f503f;
 }
 
 .nav__toggle {
@@ -243,7 +239,7 @@ h1, h2, h3, h4 {
 .nav__toggle span {
   display: block;
   height: 2px;
-  background: #f8f7f7;
+  background: #0c0b0a;
   border-radius: 2px;
   transition: all 0.3s;
 }
@@ -858,14 +854,13 @@ h1, h2, h3, h4 {
 
 @media (max-width: 768px) {
   .navbar {
-    width: auto;
     max-width: calc(100% - 32px);
-    padding: 10px 10px 10px 20px;
+    padding: 8px 8px 8px 20px;
     top: 12px;
   }
 
   .navbar--scrolled {
-    padding: 10px 10px 10px 20px;
+    padding: 8px 8px 8px 20px;
   }
 
   .nav__toggle {
