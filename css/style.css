@@ -162,8 +162,9 @@ h1, h2, h3, h4 {
 }
 
 .navbar__logo-img {
-  height: 36px;
+  height: 44px;
   width: auto;
+  object-fit: contain;
 }
 
 .nav {
@@ -738,10 +739,10 @@ h1, h2, h3, h4 {
 }
 
 .footer__logo {
-  height: 48px;
+  height: 56px;
   width: auto;
   margin-bottom: 16px;
-
+  object-fit: contain;
 }
 
 .footer__tagline {
