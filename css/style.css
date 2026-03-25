@@ -166,20 +166,16 @@ h1, h2, h3, h4 {
 }
 
 .navbar__logo {
-  display: block;
-  width: 100px;
-  height: 20px;
+  display: flex;
+  align-items: center;
   margin-right: 24px;
   flex-shrink: 0;
-  overflow: hidden;
 }
 
 .navbar__logo-img {
   display: block;
-  height: 400px;
+  height: 36px;
   width: auto;
-  margin-top: -160px;
-  margin-left: -175px;
 }
 
 .nav {
