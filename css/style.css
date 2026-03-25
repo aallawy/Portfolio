@@ -167,8 +167,8 @@ h1, h2, h3, h4 {
 
 .navbar__logo {
   display: block;
-  width: 140px;
-  height: 42px;
+  width: 100px;
+  height: 20px;
   margin-right: 24px;
   flex-shrink: 0;
   overflow: hidden;
