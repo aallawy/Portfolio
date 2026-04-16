@@ -166,16 +166,20 @@ h1, h2, h3, h4 {
 }
 
 .navbar__logo {
-  display: flex;
-  align-items: center;
-  margin-right: 24px;
+  display: block;
   flex-shrink: 0;
+  width: 70px;
+  height: 42px;
+  overflow: hidden;
+  margin-right: 16px;
 }
 
 .navbar__logo-img {
   display: block;
-  height: 36px;
+  height: 133px;
   width: auto;
+  margin-top: -60px;
+  margin-left: -60px;
 }
 
 .nav {
@@ -831,16 +835,18 @@ h1, h2, h3, h4 {
 }
 
 .footer__logo-wrap {
-  height: 90px;
+  width: 90px;
+  height: 54px;
   overflow: hidden;
   margin-bottom: 24px;
 }
 
 .footer__logo {
-  height: 400px;
+  display: block;
+  height: 168px;
   width: auto;
-  margin-top: -155px;
-  margin-left: -120px;
+  margin-top: -59px;
+  margin-left: -59px;
 }
 
 .footer__tagline {
