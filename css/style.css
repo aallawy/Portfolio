@@ -1586,7 +1586,7 @@ h1, h2, h3, h4 {
 
 .project-page--arcteryx .project-hero__brandmark {
   display: block;
-  width: clamp(220px, 34vw, 420px);
+  width: clamp(260px, 40vw, 520px);
   max-width: 100%;
   height: auto;
   margin: 12px 0 4px;
