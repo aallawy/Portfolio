@@ -1100,6 +1100,18 @@ h1, h2, h3, h4 {
   box-shadow: 0 26px 66px rgba(7, 47, 39, 0.16);
 }
 
+.project-page--sqrtech #details {
+  padding-top: 32px;
+}
+
+.project-page--sqrtech #details .project-section__grid {
+  align-items: start;
+}
+
+.project-page--sqrtech #details .project-panel {
+  padding-top: 40px;
+}
+
 .project-page--sqrtech .project-section--soft {
   background:
     radial-gradient(circle at 16% 16%, rgba(232, 177, 52, 0.1), transparent 18%),
