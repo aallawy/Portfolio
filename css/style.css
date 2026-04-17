@@ -251,12 +251,18 @@ h1, h2, h3, h4 {
   min-height: 90vh;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .hero__inner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding-left: max(24px, calc((100vw - 1200px) / 2 + 24px));
+  padding-right: 0;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(28px, 4vw, 56px);
   align-items: stretch;
 }
 
@@ -283,7 +289,8 @@ h1, h2, h3, h4 {
 }
 
 .hero__title--wordmark {
-  width: min(100%, 560px);
+  width: min(100%, 720px);
+  margin-bottom: 18px;
 }
 
 .hero__wordmark {
@@ -321,7 +328,7 @@ h1, h2, h3, h4 {
   width: 100%;
   height: 100%;
   min-height: inherit;
-  border-radius: 34px;
+  border-radius: 34px 0 0 34px;
   overflow: hidden;
   box-shadow: 0 28px 72px rgba(71, 20, 30, 0.1);
 }
@@ -3679,6 +3686,8 @@ h1, h2, h3, h4 {
   .hero__inner {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .project-room-overview {
@@ -3701,7 +3710,7 @@ h1, h2, h3, h4 {
 
   .hero__visual {
     max-width: none;
-    margin: 0 auto;
+    margin: 0;
     min-height: clamp(420px, 62vh, 640px);
   }
 
