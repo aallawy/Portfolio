@@ -1251,7 +1251,7 @@ h1, h2, h3, h4 {
 }
 
 .project-page--room .project-hero--immersive .container {
-  max-width: 1380px;
+  max-width: 1480px;
 }
 
 .project-page--room .project-hero > .container,
@@ -1333,10 +1333,10 @@ h1, h2, h3, h4 {
 }
 
 .project-room-duo {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  width: min(1440px, calc(100vw - 56px));
   margin: 0 auto;
   position: relative;
 }
@@ -1345,8 +1345,8 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-rows: minmax(0, 1fr) auto;
   gap: 16px;
-  min-height: clamp(620px, 62vw, 980px);
-  padding: 22px 22px 26px;
+  min-height: clamp(760px, 78vw, 1120px);
+  padding: 24px 24px 28px;
   border-radius: 34px;
   border: 1px solid rgba(228, 195, 159, 0.16);
   background: rgba(10, 16, 28, 0.42);
@@ -1354,7 +1354,7 @@ h1, h2, h3, h4 {
 }
 
 .project-room-frame__media {
-  min-height: clamp(520px, 54vw, 860px);
+  min-height: clamp(660px, 70vw, 980px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1887,7 +1887,6 @@ h1, h2, h3, h4 {
     gap: 40px;
   }
 
-  .project-room-duo,
   .project-room-overview {
     grid-template-columns: 1fr;
   }
