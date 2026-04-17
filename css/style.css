@@ -1589,10 +1589,10 @@ h1, h2, h3, h4 {
   width: clamp(180px, 28vw, 320px);
   max-width: 100%;
   height: auto;
-  margin: 12px 0 12px;
+  margin: 12px 0 4px;
   filter:
-    drop-shadow(0 0 14px rgba(255, 255, 255, 0.52))
-    drop-shadow(0 0 28px rgba(255, 255, 255, 0.34))
+    drop-shadow(0 0 18px rgba(255, 255, 255, 0.62))
+    drop-shadow(0 0 38px rgba(255, 255, 255, 0.42))
     drop-shadow(0 12px 28px rgba(0, 0, 0, 0.22));
 }
 
@@ -1607,6 +1607,7 @@ h1, h2, h3, h4 {
 
 .project-page--arcteryx .project-hero__title {
   max-width: 9ch;
+  margin-top: 0;
   text-shadow: 0 18px 44px rgba(0, 0, 0, 0.26);
 }
 
