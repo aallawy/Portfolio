@@ -1334,9 +1334,10 @@ h1, h2, h3, h4 {
 
 .project-room-duo {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 26px;
-  align-items: stretch;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  max-width: 1280px;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -1344,8 +1345,8 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-rows: minmax(0, 1fr) auto;
   gap: 16px;
-  min-height: clamp(420px, 46vw, 720px);
-  padding: 18px 18px 22px;
+  min-height: clamp(620px, 62vw, 980px);
+  padding: 22px 22px 26px;
   border-radius: 34px;
   border: 1px solid rgba(228, 195, 159, 0.16);
   background: rgba(10, 16, 28, 0.42);
@@ -1353,7 +1354,7 @@ h1, h2, h3, h4 {
 }
 
 .project-room-frame__media {
-  min-height: 0;
+  min-height: clamp(520px, 54vw, 860px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1994,6 +1995,11 @@ h1, h2, h3, h4 {
   .project-room-frame {
     border-radius: 24px;
     padding: 14px;
+    min-height: clamp(420px, 78vw, 760px);
+  }
+
+  .project-room-frame__media {
+    min-height: clamp(340px, 66vw, 640px);
   }
 
   .project-hero__meta,
