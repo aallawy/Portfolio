@@ -2986,6 +2986,10 @@ h1, h2, h3, h4 {
   z-index: 1;
 }
 
+.project-page--bazaarly .project-hero__layout > .reveal {
+  max-width: 620px;
+}
+
 .project-page--bazaarly .project-back,
 .project-page--bazaarly .project-hero__eyebrow,
 .project-page--bazaarly .project-panel__label {
@@ -3002,7 +3006,7 @@ h1, h2, h3, h4 {
   width: clamp(70px, 10vw, 94px);
   max-width: 100%;
   height: auto;
-  margin: 12px 0 12px;
+  margin: 12px auto 12px;
   filter: drop-shadow(0 12px 28px rgba(81, 98, 125, 0.16));
 }
 
