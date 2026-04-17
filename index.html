@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20260417-arcane">
+  <link rel="stylesheet" href="css/style.css?v=20260417-hero">
 </head>
 <body>
 
@@ -35,8 +35,8 @@
   <section class="hero">
     <div class="container hero__inner">
       <div class="hero__content">
-        <p class="hero__label">Multimedia Designer</p>
-        <h1 class="hero__title">Professional<br>Creative<br><span class="hero__title--accent">Multimedia Design</span></h1>
+        <h1 class="hero__title"><span class="hero__title--accent">Multimedia</span><br>Designer</h1>
+        <p class="hero__label">Alisa Allawy</p>
         <p class="hero__subtitle">Crafting compelling visual stories through UX design, branding, 3D, motion, and editorial design — bringing ideas to life across every medium.</p>
         <div class="hero__actions">
           <a href="#work" class="btn btn--primary">View My Work</a>
@@ -44,14 +44,56 @@
         </div>
       </div>
       <div class="hero__visual">
-        <div class="hero__image-wrapper">
-          <div class="hero__image-placeholder">
-            <svg viewBox="0 0 500 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="500" height="600" rx="20" fill="#47141e" opacity="0.08"/>
-              <circle cx="250" cy="240" r="80" fill="#47141e" opacity="0.15"/>
-              <rect x="150" y="360" width="200" height="12" rx="6" fill="#47141e" opacity="0.1"/>
-              <rect x="175" y="390" width="150" height="12" rx="6" fill="#47141e" opacity="0.08"/>
-            </svg>
+        <div class="hero__slideshow" aria-label="Featured project highlights">
+          <div class="hero__slide hero__slide--active">
+            <img src="assets/HomeMU.jpg" alt="NaturCycle app mockup">
+            <div class="hero__slide-caption">
+              <span>UX Design</span>
+              <strong>NaturCycle</strong>
+            </div>
+          </div>
+          <div class="hero__slide">
+            <img src="assets/Home.B.jpg" alt="Bazaarly same-day delivery app mockup">
+            <div class="hero__slide-caption">
+              <span>UX Design</span>
+              <strong>Bazaarly</strong>
+            </div>
+          </div>
+          <div class="hero__slide">
+            <img src="assets/brand guidlines-05.png" alt="SQRTECH.AI brand identity artwork">
+            <div class="hero__slide-caption">
+              <span>Branding</span>
+              <strong>SQRTECH.AI</strong>
+            </div>
+          </div>
+          <div class="hero__slide">
+            <img src="assets/NectarSpread08MU.jpg" alt="Nectar brand mockup">
+            <div class="hero__slide-caption">
+              <span>Branding</span>
+              <strong>Nectar</strong>
+            </div>
+          </div>
+          <div class="hero__slide">
+            <img src="assets/arc'teryx winter tour.png" alt="Arc'teryx Winter Film Tour poster">
+            <div class="hero__slide-caption">
+              <span>Motion Graphics</span>
+              <strong>Arc'teryx</strong>
+            </div>
+          </div>
+          <div class="hero__slide">
+            <img src="assets/the-arcane-season-two.avif" alt="Arcane season two promotional artwork">
+            <div class="hero__slide-caption">
+              <span>Animation</span>
+              <strong>Arcane</strong>
+            </div>
+          </div>
+          <div class="hero__slideshow-nav" aria-hidden="true">
+            <span class="hero__slideshow-dot hero__slideshow-dot--active"></span>
+            <span class="hero__slideshow-dot"></span>
+            <span class="hero__slideshow-dot"></span>
+            <span class="hero__slideshow-dot"></span>
+            <span class="hero__slideshow-dot"></span>
+            <span class="hero__slideshow-dot"></span>
           </div>
         </div>
       </div>
@@ -456,7 +498,7 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=20260417-arcane"></script>
+  <script src="js/main.js?v=20260417-hero"></script>
 </body>
 </html>
 
