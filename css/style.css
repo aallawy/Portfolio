@@ -1580,6 +1580,15 @@ h1, h2, h3, h4 {
   background: rgba(238, 243, 246, 0.04);
 }
 
+.project-page--arcteryx .project-hero__brandmark {
+  display: block;
+  width: clamp(180px, 28vw, 320px);
+  max-width: 100%;
+  height: auto;
+  margin: 12px 0 22px;
+  filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.22));
+}
+
 .project-page--arcteryx .project-hero__title,
 .project-page--arcteryx .project-panel h2,
 .project-page--arcteryx .project-panel h3,
