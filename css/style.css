@@ -1946,6 +1946,18 @@ h1, h2, h3, h4 {
   color: #f4e9d7;
 }
 
+.project-page--arcane #details {
+  padding-top: 32px;
+}
+
+.project-page--arcane #details .project-section__grid {
+  align-items: start;
+}
+
+.project-page--arcane #details .project-panel {
+  padding-top: 40px;
+}
+
 .project-page--arcane .project-panel:not(.project-panel--accent) p {
   color: rgba(244, 233, 215, 0.76);
 }
