@@ -282,6 +282,16 @@ h1, h2, h3, h4 {
   color: #0c0b0a;
 }
 
+.hero__title--wordmark {
+  width: min(100%, 560px);
+}
+
+.hero__wordmark {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .hero__title--accent {
   color: #47141e;
 }
