@@ -1,0 +1,17 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#F5F1ED"/>
+  <text x="90" y="122" fill="#47141E" font-family="Arial, sans-serif" font-size="40" font-weight="700">Editorial system</text>
+  <text x="90" y="166" fill="#5F503F" font-family="Arial, sans-serif" font-size="24">Templates that kept covers, features, and departments visually related.</text>
+  <rect x="92" y="224" width="1016" height="484" rx="32" fill="#FFFFFF" stroke="#DDD0C5" stroke-width="4"/>
+  <rect x="140" y="272" width="254" height="388" rx="18" fill="#FCFAF8" stroke="#E1D7CF" stroke-width="3"/>
+  <rect x="436" y="272" width="328" height="388" rx="18" fill="#FCFAF8" stroke="#E1D7CF" stroke-width="3"/>
+  <rect x="806" y="272" width="254" height="388" rx="18" fill="#FCFAF8" stroke="#E1D7CF" stroke-width="3"/>
+  <path d="M210 272V660M280 272V660M350 272V660M546 272V660M656 272V660M876 272V660M946 272V660M1016 272V660" stroke="#D7C8BC" stroke-width="2" stroke-dasharray="8 10"/>
+  <rect x="170" y="320" width="194" height="16" rx="8" fill="#47141E"/>
+  <rect x="472" y="320" width="220" height="170" rx="18" fill="#E6DDD4"/>
+  <rect x="840" y="320" width="188" height="210" rx="18" fill="#47141E"/>
+  <rect x="472" y="532" width="220" height="12" rx="6" fill="#A9927D"/>
+  <rect x="472" y="558" width="198" height="12" rx="6" fill="#C7B6A8"/>
+  <rect x="170" y="376" width="180" height="12" rx="6" fill="#A9927D"/>
+  <rect x="170" y="402" width="166" height="12" rx="6" fill="#C7B6A8"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#FCFAF8"/>
+  <text x="90" y="118" fill="#47141E" font-family="Arial, sans-serif" font-size="40" font-weight="700">Feature spread</text>
+  <text x="90" y="162" fill="#5F503F" font-family="Arial, sans-serif" font-size="24">Long-form article layout balancing image rhythm and breathing room.</text>
+  <rect x="90" y="220" width="486" height="500" rx="20" fill="#FFFFFF" stroke="#D8CFC8" stroke-width="4"/>
+  <rect x="624" y="220" width="486" height="500" rx="20" fill="#FFFFFF" stroke="#D8CFC8" stroke-width="4"/>
+  <rect x="132" y="268" width="204" height="14" rx="7" fill="#47141E"/>
+  <rect x="132" y="304" width="394" height="214" rx="18" fill="#E6DDD4"/>
+  <rect x="132" y="548" width="350" height="12" rx="6" fill="#A9927D"/>
+  <rect x="132" y="574" width="372" height="12" rx="6" fill="#C7B6A8"/>
+  <rect x="132" y="600" width="336" height="12" rx="6" fill="#C7B6A8"/>
+  <rect x="664" y="268" width="398" height="14" rx="7" fill="#47141E" fill-opacity="0.75"/>
+  <rect x="664" y="316" width="164" height="188" rx="16" fill="#F1E7DF"/>
+  <rect x="854" y="316" width="208" height="188" rx="16" fill="#47141E"/>
+  <rect x="664" y="548" width="378" height="12" rx="6" fill="#A9927D"/>
+  <rect x="664" y="574" width="360" height="12" rx="6" fill="#C7B6A8"/>
+  <rect x="664" y="600" width="330" height="12" rx="6" fill="#C7B6A8"/>
+</svg>

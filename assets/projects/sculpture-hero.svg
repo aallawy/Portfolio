@@ -1,0 +1,11 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#171215"/>
+  <circle cx="320" cy="260" r="182" fill="#47141E" fill-opacity="0.34"/>
+  <circle cx="880" cy="202" r="132" fill="#A9927D" fill-opacity="0.16"/>
+  <path d="M366 594C290 474 314 304 420 228C526 152 682 176 760 290C840 406 824 588 698 660C562 736 432 700 366 594Z" fill="#C9B5A6" fill-opacity="0.16" stroke="#E6D8CD" stroke-width="4"/>
+  <path d="M448 544C404 474 420 370 494 322C566 276 660 294 712 372C760 446 748 538 664 588C576 640 492 610 448 544Z" fill="#EADFD4" fill-opacity="0.85"/>
+  <path d="M524 526C502 490 510 434 550 410C590 386 640 398 664 438C690 480 682 530 636 556C590 582 548 564 524 526Z" fill="#47141E"/>
+  <ellipse cx="590" cy="662" rx="220" ry="42" fill="#0C0B0A" fill-opacity="0.52"/>
+  <text x="96" y="118" fill="#F7F2ED" font-family="Arial, sans-serif" font-size="40" font-weight="700">Abstract Sculpture Series</text>
+  <text x="96" y="164" fill="#C9B5A6" font-family="Arial, sans-serif" font-size="24">Cinematic forms exploring softness, tension, and shadow.</text>
+</svg>

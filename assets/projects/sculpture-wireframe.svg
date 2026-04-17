@@ -1,0 +1,11 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#111113"/>
+  <text x="94" y="120" fill="#F6EFE8" font-family="Arial, sans-serif" font-size="40" font-weight="700">Wireframe study</text>
+  <text x="94" y="164" fill="#BCA896" font-family="Arial, sans-serif" font-size="24">Geometry used to shape the final silhouettes</text>
+  <path d="M598 152L782 256L782 548L598 650L414 548L414 256L598 152Z" stroke="#D6C6B7" stroke-width="4"/>
+  <path d="M598 152V650M414 256H782M414 548H782M414 256L598 362L782 256M414 548L598 438L782 548M598 362V438" stroke="#A9927D" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="598" cy="400" r="132" stroke="#47141E" stroke-width="6"/>
+  <circle cx="598" cy="400" r="74" stroke="#F7F2ED" stroke-width="3" stroke-dasharray="10 10"/>
+  <path d="M486 288C544 242 642 238 712 292" stroke="#E6D8CD" stroke-width="4" stroke-linecap="round"/>
+  <path d="M470 520C532 572 646 576 724 522" stroke="#E6D8CD" stroke-width="4" stroke-linecap="round"/>
+</svg>

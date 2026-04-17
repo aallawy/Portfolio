@@ -1,0 +1,14 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#1A171A"/>
+  <text x="96" y="118" fill="#F6EFE8" font-family="Arial, sans-serif" font-size="40" font-weight="700">Lighting passes</text>
+  <text x="96" y="162" fill="#BCA896" font-family="Arial, sans-serif" font-size="24">Three moods tested for the final exhibition stills</text>
+  <rect x="96" y="226" width="300" height="460" rx="32" fill="#241D22"/>
+  <circle cx="246" cy="414" r="114" fill="#47141E" fill-opacity="0.7"/>
+  <path d="M194 470C164 422 174 352 226 324C274 298 336 312 368 362C402 416 392 492 332 528C274 562 226 540 194 470Z" fill="#EADFD4"/>
+  <rect x="450" y="226" width="300" height="460" rx="32" fill="#140F13"/>
+  <circle cx="600" cy="380" r="138" fill="#A9927D" fill-opacity="0.18"/>
+  <path d="M540 494C500 432 516 344 586 308C652 274 734 290 772 356C810 426 792 516 712 560C634 604 578 556 540 494Z" fill="#D8C7B8"/>
+  <rect x="804" y="226" width="300" height="460" rx="32" fill="#0C0B0A"/>
+  <circle cx="954" cy="362" r="150" fill="#F7F2ED" fill-opacity="0.08"/>
+  <path d="M900 500C858 430 874 338 948 298C1018 260 1102 284 1140 356C1176 428 1162 526 1078 570C996 614 938 564 900 500Z" fill="#EFE5DB"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#FCFAF8"/>
+  <rect x="110" y="84" width="980" height="632" rx="34" fill="#F1E7DF"/>
+  <text x="136" y="150" fill="#47141E" font-family="Arial, sans-serif" font-size="38" font-weight="700">Key user flow</text>
+  <text x="136" y="194" fill="#5F503F" font-family="Arial, sans-serif" font-size="24">From morning check-in to weekly summary</text>
+  <rect x="156" y="248" width="230" height="380" rx="32" fill="#FFFFFF" stroke="#DDD0C5" stroke-width="4"/>
+  <rect x="184" y="286" width="174" height="88" rx="20" fill="#47141E"/>
+  <text x="208" y="338" fill="#F8F7F7" font-family="Arial, sans-serif" font-size="26" font-weight="700">Check in</text>
+  <rect x="184" y="406" width="174" height="18" rx="9" fill="#A9927D"/>
+  <rect x="184" y="438" width="132" height="18" rx="9" fill="#C7B6A8"/>
+  <rect x="184" y="490" width="174" height="84" rx="20" fill="#F4EFEB"/>
+  <circle cx="271" cy="532" r="28" fill="#47141E" fill-opacity="0.12"/>
+  <rect x="486" y="248" width="230" height="380" rx="32" fill="#FFFFFF" stroke="#DDD0C5" stroke-width="4"/>
+  <rect x="514" y="286" width="174" height="88" rx="20" fill="#0C0B0A"/>
+  <text x="550" y="338" fill="#F8F7F7" font-family="Arial, sans-serif" font-size="26" font-weight="700">Track</text>
+  <rect x="514" y="412" width="174" height="16" rx="8" fill="#A9927D"/>
+  <rect x="514" y="444" width="120" height="16" rx="8" fill="#C7B6A8"/>
+  <path d="M540 548C568 508 612 490 654 500" stroke="#47141E" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="654" cy="500" r="14" fill="#47141E"/>
+  <rect x="816" y="248" width="230" height="380" rx="32" fill="#FFFFFF" stroke="#DDD0C5" stroke-width="4"/>
+  <rect x="844" y="286" width="174" height="88" rx="20" fill="#A9927D"/>
+  <text x="870" y="338" fill="#47141E" font-family="Arial, sans-serif" font-size="26" font-weight="700">Reflect</text>
+  <rect x="844" y="412" width="174" height="16" rx="8" fill="#47141E" fill-opacity="0.8"/>
+  <rect x="844" y="444" width="138" height="16" rx="8" fill="#47141E" fill-opacity="0.35"/>
+  <rect x="844" y="494" width="138" height="44" rx="22" fill="#47141E"/>
+  <text x="884" y="523" fill="#F8F7F7" font-family="Arial, sans-serif" font-size="22" font-weight="700">Summary</text>
+  <path d="M386 438H486" stroke="#A9927D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M716 438H816" stroke="#A9927D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M462 418L486 438L462 458" stroke="#A9927D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M792 418L816 438L792 458" stroke="#A9927D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
