@@ -3133,6 +3133,18 @@ h1, h2, h3, h4 {
     linear-gradient(180deg, rgba(242, 237, 228, 0.84) 0%, rgba(250, 247, 241, 0.58) 100%);
 }
 
+.project-page--bazaarly .project-section--bazaarly-details {
+  padding-top: 28px;
+}
+
+.project-page--bazaarly .project-section--bazaarly-decisions {
+  padding-top: 28px;
+}
+
+.project-page--bazaarly .project-section--bazaarly-decisions .project-section__grid {
+  align-items: center;
+}
+
 .project-page--bazaarly .project-gallery__item {
   border-color: rgba(81, 98, 125, 0.08);
   background: rgba(255, 255, 255, 0.9);
