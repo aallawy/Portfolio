@@ -487,6 +487,12 @@ h1, h2, h3, h4 {
   padding: 10px;
 }
 
+.project-card__image--arcteryx {
+  background:
+    radial-gradient(circle at 18% 16%, rgba(214, 227, 237, 0.18), transparent 20%),
+    linear-gradient(135deg, #050607 0%, #171d22 55%, #0c1014 100%);
+}
+
 .project-card:hover .project-card__image svg,
 .project-card:hover .project-card__image img {
   transform: scale(1.03);
@@ -888,6 +894,58 @@ h1, h2, h3, h4 {
 
 .project-gallery__item--wide {
   grid-column: span 2;
+}
+
+.motion-showcase {
+  display: grid;
+  gap: 18px;
+}
+
+.motion-showcase__frame {
+  overflow: hidden;
+  border-radius: 32px;
+  padding: 12px;
+  border: 1px solid rgba(95, 80, 63, 0.12);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 24px 60px rgba(71, 20, 30, 0.08);
+}
+
+.motion-showcase__embed {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  border-radius: 24px;
+  background: #000000;
+  overflow: hidden;
+}
+
+.motion-showcase__embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.motion-showcase__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.motion-showcase__tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(95, 80, 63, 0.12);
+  background: rgba(255, 255, 255, 0.76);
+  color: #0c0b0a;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .project-gallery__item img {
@@ -1445,6 +1503,251 @@ h1, h2, h3, h4 {
 
 .project-page--nectar .footer__link:hover {
   color: #fbf4ea;
+}
+
+/* --- ARC'TERYX MOTION PAGE THEME --- */
+.project-page--arcteryx {
+  background:
+    radial-gradient(circle at 14% 10%, rgba(190, 207, 221, 0.14), transparent 20%),
+    radial-gradient(circle at 84% 12%, rgba(112, 136, 154, 0.18), transparent 18%),
+    linear-gradient(180deg, #030405 0%, #0a0c0f 24%, #12171c 62%, #161d23 100%);
+  color: #eef3f6;
+}
+
+.project-page--arcteryx .navbar {
+  background: rgba(5, 7, 8, 0.9);
+  border: 1px solid rgba(238, 243, 246, 0.12);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+}
+
+.project-page--arcteryx .navbar--scrolled {
+  background: rgba(3, 4, 5, 0.96);
+  border-color: rgba(238, 243, 246, 0.16);
+}
+
+.project-page--arcteryx .nav__link {
+  color: rgba(238, 243, 246, 0.82);
+}
+
+.project-page--arcteryx .nav__link::after {
+  background: #eef3f6;
+}
+
+.project-page--arcteryx .nav__link--cta {
+  background: #eef3f6;
+  color: #050607;
+}
+
+.project-page--arcteryx .nav__link--cta:hover {
+  background: #ffffff;
+}
+
+.project-page--arcteryx .nav__toggle span {
+  background: #eef3f6;
+}
+
+.project-page--arcteryx .project-hero {
+  position: relative;
+  padding-bottom: 104px;
+}
+
+.project-page--arcteryx .project-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(3, 4, 5, 0) 0%, rgba(3, 4, 5, 0.34) 44%, rgba(3, 4, 5, 0.8) 100%),
+    radial-gradient(circle at 78% 22%, rgba(220, 229, 236, 0.12), transparent 22%);
+  pointer-events: none;
+}
+
+.project-page--arcteryx .project-hero > .container,
+.project-page--arcteryx .project-section > .container,
+.project-page--arcteryx .project-section--soft > .container,
+.project-page--arcteryx .cta-footer > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.project-page--arcteryx .project-back,
+.project-page--arcteryx .project-hero__eyebrow,
+.project-page--arcteryx .project-panel__label {
+  color: #dce5ec;
+}
+
+.project-page--arcteryx .project-hero__eyebrow {
+  border-color: rgba(220, 229, 236, 0.2);
+  background: rgba(238, 243, 246, 0.04);
+}
+
+.project-page--arcteryx .project-hero__title,
+.project-page--arcteryx .project-panel h2,
+.project-page--arcteryx .project-panel h3,
+.project-page--arcteryx .project-section__heading h2,
+.project-page--arcteryx .project-step h3,
+.project-page--arcteryx .project-gallery__item strong {
+  color: #eef3f6;
+}
+
+.project-page--arcteryx .project-hero__title {
+  max-width: 9ch;
+  text-shadow: 0 18px 44px rgba(0, 0, 0, 0.26);
+}
+
+.project-page--arcteryx .project-hero__summary,
+.project-page--arcteryx .project-section__heading p,
+.project-page--arcteryx .project-step p,
+.project-page--arcteryx .project-gallery__item span {
+  color: rgba(238, 243, 246, 0.74);
+}
+
+.project-page--arcteryx .project-hero__meta-card {
+  background: rgba(20, 24, 28, 0.84);
+  border-color: rgba(238, 243, 246, 0.12);
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.22);
+}
+
+.project-page--arcteryx .project-hero__meta-card span {
+  color: rgba(238, 243, 246, 0.62);
+}
+
+.project-page--arcteryx .project-hero__meta-card strong {
+  color: #eef3f6;
+}
+
+.project-page--arcteryx .btn--primary {
+  background: #eef3f6;
+  color: #050607;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
+}
+
+.project-page--arcteryx .btn--primary:hover {
+  background: #ffffff;
+}
+
+.project-page--arcteryx .btn--outline {
+  border-color: rgba(238, 243, 246, 0.24);
+  color: #eef3f6;
+  background: rgba(238, 243, 246, 0.04);
+}
+
+.project-page--arcteryx .btn--outline:hover {
+  background: #eef3f6;
+  color: #050607;
+}
+
+.project-page--arcteryx .motion-showcase__frame {
+  border-color: rgba(238, 243, 246, 0.08);
+  background: linear-gradient(180deg, rgba(22, 28, 34, 0.96) 0%, rgba(9, 11, 13, 0.96) 100%);
+  box-shadow: 0 28px 72px rgba(0, 0, 0, 0.32);
+}
+
+.project-page--arcteryx .motion-showcase__embed iframe {
+  border: 1px solid rgba(238, 243, 246, 0.08);
+}
+
+.project-page--arcteryx .motion-showcase__tag {
+  border-color: rgba(238, 243, 246, 0.12);
+  background: rgba(20, 24, 28, 0.82);
+  color: #eef3f6;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
+}
+
+.project-page--arcteryx .project-panel {
+  background: linear-gradient(180deg, rgba(20, 24, 28, 0.96) 0%, rgba(8, 10, 12, 0.96) 100%);
+  border-color: rgba(238, 243, 246, 0.08);
+  box-shadow: 0 24px 58px rgba(0, 0, 0, 0.28);
+  color: #eef3f6;
+}
+
+.project-page--arcteryx .project-panel:not(.project-panel--accent) p {
+  color: rgba(238, 243, 246, 0.76);
+}
+
+.project-page--arcteryx .project-panel--accent {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(220, 229, 236, 0.08), transparent 24%),
+    linear-gradient(145deg, #1d252d 0%, #11161b 56%, #07090b 100%);
+}
+
+.project-page--arcteryx .project-panel--accent .project-panel__label {
+  color: rgba(238, 243, 246, 0.68);
+}
+
+.project-page--arcteryx .project-list li {
+  color: rgba(238, 243, 246, 0.84);
+}
+
+.project-page--arcteryx .project-list li::before {
+  background: #eef3f6;
+}
+
+.project-page--arcteryx .project-section--soft {
+  background:
+    radial-gradient(circle at 16% 12%, rgba(189, 204, 217, 0.1), transparent 20%),
+    linear-gradient(180deg, #11161b 0%, #090b0d 100%);
+}
+
+.project-page--arcteryx .project-step {
+  background: rgba(19, 24, 29, 0.94);
+  border-color: rgba(238, 243, 246, 0.08);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.26);
+}
+
+.project-page--arcteryx .project-step__number {
+  background: rgba(238, 243, 246, 0.12);
+  color: #eef3f6;
+}
+
+.project-page--arcteryx .project-metric {
+  background: linear-gradient(180deg, #eff4f7 0%, #c9d4dc 48%, #8796a1 100%);
+  color: #050607;
+  box-shadow: 0 20px 42px rgba(0, 0, 0, 0.16);
+}
+
+.project-page--arcteryx .project-metric strong,
+.project-page--arcteryx .project-metric span {
+  color: rgba(5, 6, 7, 0.92);
+}
+
+.project-page--arcteryx .cta-footer {
+  background:
+    radial-gradient(circle at 20% 22%, rgba(210, 222, 231, 0.1), transparent 22%),
+    linear-gradient(135deg, #040506 0%, #0c1014 44%, #1a2229 100%);
+}
+
+.project-page--arcteryx .cta-footer__title {
+  color: #eef3f6;
+}
+
+.project-page--arcteryx .cta-footer__text {
+  color: rgba(238, 243, 246, 0.74);
+}
+
+.project-page--arcteryx .btn--ghost {
+  border-color: rgba(238, 243, 246, 0.22);
+  color: #eef3f6;
+}
+
+.project-page--arcteryx .btn--ghost:hover {
+  border-color: rgba(238, 243, 246, 0.42);
+  background: rgba(238, 243, 246, 0.08);
+}
+
+.project-page--arcteryx .footer {
+  background: #030405;
+}
+
+.project-page--arcteryx .footer__heading {
+  color: #d9e2e8;
+}
+
+.project-page--arcteryx .footer__link {
+  color: rgba(238, 243, 246, 0.62);
+}
+
+.project-page--arcteryx .footer__link:hover {
+  color: #eef3f6;
 }
 
 /* --- MUSTAFA EDITORIAL PAGE THEME --- */
@@ -2451,6 +2754,11 @@ h1, h2, h3, h4 {
 
   .project-page--nectar .nav {
     background: #0a0a0a;
+    box-shadow: -4px 0 24px rgba(0, 0, 0, 0.32);
+  }
+
+  .project-page--arcteryx .nav {
+    background: #07090a;
     box-shadow: -4px 0 24px rgba(0, 0, 0, 0.32);
   }
 
