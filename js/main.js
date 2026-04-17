@@ -50,10 +50,26 @@ const observerOptions = {
   rootMargin: '0px 0px -50px 0px'
 };
 
+const queueReveal = (element) => {
+  if (element.dataset.revealQueued === 'true') {
+    return;
+  }
+
+  element.dataset.revealQueued = 'true';
+
+  // Wait until after the next paint so above-the-fold media
+  // animates instead of rendering immediately in its final state.
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      element.classList.add('revealed');
+    });
+  });
+};
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      entry.target.classList.add('revealed');
+      queueReveal(entry.target);
       observer.unobserve(entry.target);
     }
   });
