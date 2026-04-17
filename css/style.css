@@ -463,6 +463,17 @@ h1, h2, h3, h4 {
     linear-gradient(135deg, #0a0c12 0%, #171428 56%, #26140f 100%);
 }
 
+.project-card__image--naturcycle {
+  background:
+    radial-gradient(circle at 18% 16%, rgba(185, 196, 164, 0.2), transparent 22%),
+    radial-gradient(circle at 82% 14%, rgba(79, 103, 72, 0.14), transparent 18%),
+    linear-gradient(135deg, #123126 0%, #274436 52%, #4f6748 100%);
+}
+
+.project-card__image--naturcycle img {
+  object-position: center 28%;
+}
+
 .project-card:hover .project-card__image svg,
 .project-card:hover .project-card__image img {
   transform: scale(1.03);
@@ -2567,6 +2578,314 @@ h1, h2, h3, h4 {
   color: #f4eee7;
 }
 
+/* --- NATURCYCLE UX PAGE THEME --- */
+.project-page--naturcycle {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(185, 196, 164, 0.26), transparent 20%),
+    radial-gradient(circle at 86% 12%, rgba(79, 103, 72, 0.16), transparent 18%),
+    radial-gradient(circle at 82% 34%, rgba(20, 49, 38, 0.08), transparent 20%),
+    linear-gradient(180deg, #eaf0e2 0%, #f7f7f0 36%, #fcfcf7 100%);
+  color: #143126;
+}
+
+.project-page--naturcycle .navbar {
+  background: rgba(16, 40, 31, 0.88);
+  border: 1px solid rgba(243, 239, 228, 0.16);
+  box-shadow: 0 14px 34px rgba(14, 28, 21, 0.24);
+}
+
+.project-page--naturcycle .navbar--scrolled {
+  background: rgba(14, 33, 26, 0.94);
+  border-color: rgba(243, 239, 228, 0.2);
+}
+
+.project-page--naturcycle .nav__link {
+  color: rgba(243, 239, 228, 0.84);
+}
+
+.project-page--naturcycle .nav__link::after {
+  background: #b9c4a4;
+}
+
+.project-page--naturcycle .nav__link--cta {
+  background: linear-gradient(135deg, #b9c4a4 0%, #8c9561 100%);
+  color: #143126;
+}
+
+.project-page--naturcycle .nav__link--cta:hover {
+  background: linear-gradient(135deg, #c7cfb5 0%, #9ca670 100%);
+}
+
+.project-page--naturcycle .nav__toggle span {
+  background: #f3efe4;
+}
+
+.project-page--naturcycle .project-hero {
+  position: relative;
+  padding-bottom: 96px;
+}
+
+.project-page--naturcycle .project-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(234, 240, 226, 0) 0%, rgba(247, 247, 240, 0.22) 38%, rgba(252, 252, 247, 0.78) 100%),
+    radial-gradient(circle at 80% 18%, rgba(79, 103, 72, 0.14), transparent 22%);
+  pointer-events: none;
+}
+
+.project-page--naturcycle .project-hero > .container,
+.project-page--naturcycle .project-section > .container,
+.project-page--naturcycle .project-section--soft > .container,
+.project-page--naturcycle .cta-footer > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.project-page--naturcycle .project-back,
+.project-page--naturcycle .project-hero__eyebrow,
+.project-page--naturcycle .project-panel__label {
+  color: #36513b;
+}
+
+.project-page--naturcycle .project-hero__eyebrow {
+  border-color: rgba(54, 81, 59, 0.18);
+  background: rgba(243, 239, 228, 0.42);
+}
+
+.project-page--naturcycle .project-hero__title,
+.project-page--naturcycle .project-panel h2,
+.project-page--naturcycle .project-panel h3,
+.project-page--naturcycle .project-section__heading h2,
+.project-page--naturcycle .project-gallery__item strong {
+  color: #143126;
+}
+
+.project-page--naturcycle .project-hero__title {
+  max-width: 7ch;
+  text-shadow: 0 14px 34px rgba(79, 103, 72, 0.08);
+}
+
+.project-page--naturcycle .project-hero__summary,
+.project-page--naturcycle .project-section__heading p,
+.project-page--naturcycle .project-gallery__item span {
+  color: #445642;
+}
+
+.project-page--naturcycle .project-hero__meta-card {
+  background: rgba(255, 255, 251, 0.76);
+  border-color: rgba(20, 49, 38, 0.08);
+  box-shadow: 0 18px 40px rgba(20, 49, 38, 0.08);
+}
+
+.project-page--naturcycle .project-hero__meta-card span {
+  color: #5a6d58;
+}
+
+.project-page--naturcycle .project-hero__meta-card strong {
+  color: #143126;
+}
+
+.project-page--naturcycle .btn--primary {
+  background: linear-gradient(135deg, #143126 0%, #4f6748 58%, #8c9561 100%);
+  color: #f7f7f0;
+  box-shadow: 0 16px 36px rgba(20, 49, 38, 0.18);
+}
+
+.project-page--naturcycle .btn--primary:hover {
+  background: linear-gradient(135deg, #1b4031 0%, #5d7754 58%, #9aa46f 100%);
+}
+
+.project-page--naturcycle .btn--outline {
+  border-color: rgba(20, 49, 38, 0.16);
+  color: #143126;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.project-page--naturcycle .btn--outline:hover {
+  background: #143126;
+  color: #f7f7f0;
+}
+
+.project-page--naturcycle .project-hero__primary,
+.project-page--naturcycle .project-hero__supporting img,
+.project-page--naturcycle .project-gallery__item img {
+  border-color: rgba(20, 49, 38, 0.08);
+  background: #eef0e6;
+  box-shadow: 0 28px 70px rgba(44, 65, 44, 0.16);
+}
+
+.project-page--naturcycle .project-panel {
+  background: rgba(255, 255, 251, 0.86);
+  border-color: rgba(20, 49, 38, 0.08);
+  box-shadow: 0 22px 54px rgba(52, 81, 59, 0.08);
+  color: #143126;
+}
+
+.project-page--naturcycle .project-panel:not(.project-panel--accent) p {
+  color: #445642;
+}
+
+.project-page--naturcycle .project-panel--accent {
+  background:
+    radial-gradient(circle at 18% 16%, rgba(185, 196, 164, 0.18), transparent 26%),
+    linear-gradient(145deg, #143126 0%, #274436 54%, #4f6748 100%);
+  color: #f7f7f0;
+}
+
+.project-page--naturcycle .project-panel--accent .project-panel__label {
+  color: rgba(247, 247, 240, 0.74);
+}
+
+.project-page--naturcycle .project-panel--brand {
+  background: linear-gradient(180deg, rgba(250, 250, 246, 0.96) 0%, rgba(232, 238, 224, 0.96) 100%);
+}
+
+.project-page--naturcycle .project-list li {
+  color: inherit;
+}
+
+.project-page--naturcycle .project-list li::before {
+  background: #b9c4a4;
+}
+
+.project-page--naturcycle .project-section--soft {
+  background:
+    radial-gradient(circle at 18% 16%, rgba(185, 196, 164, 0.16), transparent 24%),
+    radial-gradient(circle at 82% 20%, rgba(79, 103, 72, 0.1), transparent 18%),
+    linear-gradient(180deg, rgba(234, 240, 226, 0.84) 0%, rgba(247, 247, 240, 0.58) 100%);
+}
+
+.project-page--naturcycle .project-gallery__item {
+  border-color: rgba(20, 49, 38, 0.08);
+  background: rgba(255, 255, 251, 0.9);
+  box-shadow: 0 20px 52px rgba(52, 81, 59, 0.08);
+}
+
+.project-page--naturcycle .project-step {
+  background: rgba(255, 255, 251, 0.82);
+  border-color: rgba(20, 49, 38, 0.08);
+}
+
+.project-page--naturcycle .project-step__number {
+  background: rgba(140, 149, 97, 0.18);
+  color: #36513b;
+}
+
+.project-page--naturcycle .project-step p {
+  color: #445642;
+}
+
+.project-page--naturcycle .project-metric {
+  background: linear-gradient(135deg, #143126 0%, #274436 52%, #4f6748 100%);
+}
+
+.project-page--naturcycle .project-metric span {
+  color: rgba(247, 247, 240, 0.76);
+}
+
+.project-page--naturcycle .naturcycle-palette {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.project-page--naturcycle .naturcycle-palette__swatch {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 251, 0.82);
+  border: 1px solid rgba(20, 49, 38, 0.08);
+}
+
+.project-page--naturcycle .naturcycle-palette__tone {
+  display: block;
+  width: 100%;
+  height: 56px;
+  border-radius: 16px;
+}
+
+.project-page--naturcycle .naturcycle-palette__tone--forest {
+  background: #143126;
+}
+
+.project-page--naturcycle .naturcycle-palette__tone--moss {
+  background: #4f6748;
+}
+
+.project-page--naturcycle .naturcycle-palette__tone--sage {
+  background: #b9c4a4;
+}
+
+.project-page--naturcycle .naturcycle-palette__tone--cream {
+  background: #f3efe4;
+  border: 1px solid rgba(20, 49, 38, 0.08);
+}
+
+.project-page--naturcycle .naturcycle-palette__swatch strong {
+  display: block;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #143126;
+}
+
+.project-page--naturcycle .naturcycle-palette__swatch small {
+  display: block;
+  color: #5a6d58;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.project-page--naturcycle .naturcycle-palette__note {
+  color: #445642;
+  line-height: 1.75;
+}
+
+.project-page--naturcycle .cta-footer {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(185, 196, 164, 0.12), transparent 22%),
+    radial-gradient(circle at 82% 18%, rgba(79, 103, 72, 0.16), transparent 20%),
+    linear-gradient(135deg, #10261d 0%, #1f3a2d 46%, #4f6748 100%);
+}
+
+.project-page--naturcycle .cta-footer__title {
+  color: #f7f7f0;
+}
+
+.project-page--naturcycle .cta-footer__text {
+  color: rgba(247, 247, 240, 0.76);
+}
+
+.project-page--naturcycle .btn--ghost {
+  border-color: rgba(247, 247, 240, 0.22);
+  color: #f7f7f0;
+}
+
+.project-page--naturcycle .btn--ghost:hover {
+  border-color: rgba(247, 247, 240, 0.4);
+  background: rgba(247, 247, 240, 0.08);
+}
+
+.project-page--naturcycle .footer {
+  background: #0e1d16;
+}
+
+.project-page--naturcycle .footer__heading {
+  color: #b9c4a4;
+}
+
+.project-page--naturcycle .footer__link {
+  color: rgba(247, 247, 240, 0.64);
+}
+
+.project-page--naturcycle .footer__link:hover {
+  color: #f7f7f0;
+}
+
 /* --- SERVICES --- */
 .services {
   padding: 80px 0;
@@ -3026,6 +3345,11 @@ h1, h2, h3, h4 {
     box-shadow: -4px 0 24px rgba(0, 0, 0, 0.32);
   }
 
+  .project-page--naturcycle .nav {
+    background: #143126;
+    box-shadow: -4px 0 24px rgba(0, 0, 0, 0.32);
+  }
+
   .project-page--room .nav {
     background: #101929;
     box-shadow: -4px 0 24px rgba(0, 0, 0, 0.32);
@@ -3094,6 +3418,10 @@ h1, h2, h3, h4 {
   .project-step,
   .project-metric {
     padding: 24px;
+  }
+
+  .project-page--naturcycle .naturcycle-palette {
+    grid-template-columns: 1fr;
   }
 
   .hero__title {
