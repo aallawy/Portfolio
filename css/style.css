@@ -310,47 +310,6 @@ h1, h2, h3, h4 {
   height: auto;
 }
 
-/* --- STATEMENT --- */
-.statement {
-  padding: 80px 0;
-  text-align: center;
-}
-
-.statement__divider {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 40px;
-}
-
-.statement__dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #a9927d;
-}
-
-.statement__quote {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(1.3rem, 3vw, 2rem);
-  font-weight: 400;
-  line-height: 1.5;
-  max-width: 720px;
-  margin: 0 auto 20px;
-  color: #0c0b0a;
-}
-
-.statement__quote em {
-  color: #47141e;
-  font-style: italic;
-}
-
-.statement__author {
-  font-size: 0.85rem;
-  color: #a9927d;
-  letter-spacing: 0.05em;
-}
-
 /* --- WHY WORK WITH ME --- */
 .why-me {
   padding: 80px 0;
