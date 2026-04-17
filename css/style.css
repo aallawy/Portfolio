@@ -1341,14 +1341,25 @@ h1, h2, h3, h4 {
 }
 
 .project-room-frame {
-  position: relative;
-  overflow: hidden;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 16px;
   min-height: clamp(420px, 46vw, 720px);
-  padding: 18px;
+  padding: 18px 18px 22px;
   border-radius: 34px;
   border: 1px solid rgba(228, 195, 159, 0.16);
   background: rgba(10, 16, 28, 0.42);
   box-shadow: 0 34px 82px rgba(0, 0, 0, 0.34);
+}
+
+.project-room-frame__media {
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 24px;
+  background: rgba(8, 14, 24, 0.24);
 }
 
 .project-room-frame img {
@@ -1361,29 +1372,8 @@ h1, h2, h3, h4 {
   transform: none;
 }
 
-.project-room-frame::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(9, 15, 25, 0) 32%, rgba(9, 15, 25, 0.16) 60%, rgba(9, 15, 25, 0.76) 100%);
-  pointer-events: none;
-}
-
-.project-room-frame::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  opacity: 0.8;
-  pointer-events: none;
-}
-
 .project-room-frame figcaption {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  padding: 26px 26px 28px;
+  padding: 0 6px 2px;
 }
 
 .project-room-frame__eyebrow {
@@ -1420,9 +1410,7 @@ h1, h2, h3, h4 {
 }
 
 .project-room-frame--day::before {
-  background:
-    linear-gradient(180deg, rgba(255, 236, 212, 0.08) 0%, rgba(255, 216, 170, 0.04) 100%),
-    radial-gradient(circle at 18% 12%, rgba(255, 228, 190, 0.22), transparent 24%);
+  display: none;
 }
 
 .project-room-frame--night {
@@ -1430,9 +1418,7 @@ h1, h2, h3, h4 {
 }
 
 .project-room-frame--night::before {
-  background:
-    linear-gradient(180deg, rgba(121, 156, 214, 0.08) 0%, rgba(20, 35, 60, 0.08) 100%),
-    radial-gradient(circle at 82% 12%, rgba(123, 160, 220, 0.18), transparent 24%);
+  display: none;
 }
 
 .project-page--room .project-section--room {
