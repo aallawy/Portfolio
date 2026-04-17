@@ -247,7 +247,7 @@ h1, h2, h3, h4 {
 
 /* --- HERO --- */
 .hero {
-  padding: 120px 0 0;
+  padding: 0;
   min-height: 100vh;
   display: block;
   overflow: hidden;
@@ -256,7 +256,7 @@ h1, h2, h3, h4 {
 .hero__inner {
   display: grid;
   width: 100%;
-  min-height: calc(100vh - 120px);
+  min-height: 100vh;
   margin: 0;
   padding-left: 0;
   padding-right: 0;
@@ -278,7 +278,7 @@ h1, h2, h3, h4 {
 
 .hero__brandmark {
   display: block;
-  width: min(100%, 190px);
+  width: min(100%, 280px);
   height: auto;
   margin-bottom: 18px;
 }
@@ -3829,7 +3829,7 @@ h1, h2, h3, h4 {
   }
 
   .hero {
-    padding: 120px 0 60px;
+    padding: 0 0 60px;
     min-height: auto;
   }
 
