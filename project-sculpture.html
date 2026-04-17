@@ -10,11 +10,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="project-page">
+<body class="project-page project-page--room">
   <header class="navbar" id="top">
     <div class="navbar__inner">
       <a href="index.html#top" class="navbar__logo">
-        <img src="assets/wordmark-burgundy-full.png" alt="Alisa Allawy" class="navbar__logo-img">
+        <img src="assets/wordmark-white-full.png" alt="Alisa Allawy" class="navbar__logo-img">
       </a>
       <button class="nav__toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
@@ -31,21 +31,21 @@
   </header>
 
   <main>
-    <section class="project-hero">
-      <div class="container project-hero__layout">
-        <div class="reveal">
+    <section class="project-hero project-hero--immersive">
+      <div class="container">
+        <div class="project-room-intro reveal">
           <a href="index.html#work" class="project-back">Back to portfolio</a>
           <span class="project-hero__eyebrow">3D Modeling</span>
           <h1 class="project-hero__title">Day and Night Room Visualization</h1>
-          <p class="project-hero__summary">A 3D interior room project built to simulate a believable real space in two distinct moods: one rendered in daylight and one staged for nighttime.</p>
+          <p class="project-hero__summary">A 3D room built in Adobe Modeler and Adobe Stager, rendered twice to show how the same interior shifts between daylight and nighttime.</p>
           <div class="project-hero__meta">
             <div class="project-hero__meta-card">
-              <span>Project type</span>
-              <strong>Interior room visualization</strong>
+              <span>Type</span>
+              <strong>Interior visualization</strong>
             </div>
             <div class="project-hero__meta-card">
               <span>Scenes</span>
-              <strong>Daytime and nighttime</strong>
+              <strong>Day + Night</strong>
             </div>
             <div class="project-hero__meta-card">
               <span>Tools</span>
@@ -53,103 +53,45 @@
             </div>
           </div>
           <div class="project-hero__actions">
-            <a href="#details" class="btn btn--primary">Read case study</a>
-            <a href="#contact" class="btn btn--outline">Plan a 3D project</a>
+            <a href="#renders" class="btn btn--primary">See the Renders</a>
+            <a href="#details" class="btn btn--outline">Project Details</a>
           </div>
         </div>
-        <div class="project-hero__visual reveal">
-          <img src="assets/3D Final daylight-v02-Camera 3.png" alt="Daytime 3D room render" class="project-hero__primary">
-          <div class="project-hero__supporting">
+        <div class="project-room-duo" id="renders">
+          <figure class="project-room-frame project-room-frame--day reveal reveal--media">
+            <img src="assets/3D Final daylight-v02-Camera 3.png" alt="Daytime 3D room render">
+            <figcaption>
+              <strong>Daytime</strong>
+              <span>Open, warm, and naturally lit.</span>
+            </figcaption>
+          </figure>
+          <figure class="project-room-frame project-room-frame--night reveal reveal--media reveal--delay-1">
             <img src="assets/3D Final nightime-Camera 6.png" alt="Nighttime 3D room render">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="project-section" id="details">
-      <div class="container project-section__grid reveal">
-        <article class="project-panel">
-          <span class="project-panel__label">Project story</span>
-          <h2>Creating a realistic room in two lighting situations</h2>
-          <p>This project focused on building a 3D modeled interior room that could feel believable in two different sittings: one in the daytime and one in the nighttime. The goal was to keep the room itself consistent while letting lighting, atmosphere, and tone shift naturally between the two scenes.</p>
-          <p>I used Adobe Modeler to shape the room and Adobe Stager to refine the environment, materials, and final rendering. The contrast between the daylight and nighttime versions helped show how the same space can communicate a completely different feeling through light alone.</p>
-        </article>
-        <aside class="project-panel project-panel--accent">
-          <span class="project-panel__label">Deliverables</span>
-          <h3>What was created</h3>
-          <ul class="project-list">
-            <li>A fully modeled 3D room environment with realistic layout and styling</li>
-            <li>Two final rendered scenes showing the room in daytime and nighttime</li>
-            <li>Material and lighting adjustments to support believable mood changes</li>
-            <li>Presentation-ready still images for portfolio display</li>
-          </ul>
-        </aside>
-      </div>
-    </section>
-
-    <section class="project-section project-section--soft">
-      <div class="container reveal">
-        <div class="project-section__heading">
-          <span class="project-panel__label">Process</span>
-          <h2>How the room was developed</h2>
-          <p>The workflow centered on building one strong environment first, then adjusting the scene settings so the same room could feel convincing at two different times of day.</p>
-        </div>
-        <div class="project-process">
-          <article class="project-step">
-            <span class="project-step__number">01</span>
-            <h3>Room modeling</h3>
-            <p>I built the overall space and furniture arrangement in Adobe Modeler, focusing on a clean structure that could support realistic staging and camera framing.</p>
-          </article>
-          <article class="project-step">
-            <span class="project-step__number">02</span>
-            <h3>Scene setup</h3>
-            <p>In Adobe Stager I refined the materials, object styling, and environmental setup so the room felt grounded and visually coherent as a real interior.</p>
-          </article>
-          <article class="project-step">
-            <span class="project-step__number">03</span>
-            <h3>Lighting variation</h3>
-            <p>The final renders explored how daylight and nighttime lighting could change the atmosphere of the exact same room without changing the modeled environment itself.</p>
-          </article>
-        </div>
-        <div class="project-metrics">
-          <article class="project-metric">
-            <strong>2</strong>
-            <span>final room renders created to show the same space in daytime and nighttime</span>
-          </article>
-          <article class="project-metric">
-            <strong>Adobe</strong>
-            <span>Modeler and Stager were used together to build, stage, and render the environment</span>
-          </article>
-          <article class="project-metric">
-            <strong>Interior</strong>
-            <span>The project was designed to simulate a believable real room rather than a purely conceptual scene</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="project-section">
-      <div class="container reveal">
-        <div class="project-section__heading">
-          <span class="project-panel__label">Visual walkthrough</span>
-          <h2>Daytime and nighttime room renders</h2>
-          <p>These final stills show the same modeled space shifting mood through lighting and environmental treatment.</p>
-        </div>
-        <div class="project-gallery">
-          <figure class="project-gallery__item project-gallery__item--wide">
-            <img src="assets/3D Final daylight-v02-Camera 3.png" alt="Daytime render of the 3D modeled room">
             <figcaption>
-              <strong>Daytime render</strong>
-              <span>Natural light gives the room a clearer, more open feeling and helps emphasize the realism of the interior setup.</span>
+              <strong>Nighttime</strong>
+              <span>The same room, shifted into a quieter mood.</span>
             </figcaption>
           </figure>
-          <figure class="project-gallery__item">
-            <img src="assets/3D Final nightime-Camera 6.png" alt="Nighttime render of the 3D modeled room">
-            <figcaption>
-              <strong>Nighttime render</strong>
-              <span>The nighttime version shifts the same room into a more intimate mood, showing how the scene transforms through lighting alone.</span>
-            </figcaption>
-          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section project-section--room" id="details">
+      <div class="container">
+        <div class="project-room-overview">
+          <article class="project-panel reveal">
+            <span class="project-panel__label">Overview</span>
+            <h2>One modeled space, two atmospheres.</h2>
+            <p>The room was built to feel believable first, then lit in two different ways to show how mood changes when the light changes.</p>
+          </article>
+          <aside class="project-panel project-panel--accent reveal">
+            <span class="project-panel__label">Built With</span>
+            <ul class="project-list">
+              <li>Adobe Modeler for room creation</li>
+              <li>Adobe Stager for scene styling and rendering</li>
+              <li>Two final stills focused on daytime and nighttime mood</li>
+            </ul>
+          </aside>
         </div>
       </div>
     </section>
