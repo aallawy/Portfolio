@@ -2923,6 +2923,7 @@ h1, h2, h3, h4 {
 
 /* --- BAZAARLY UX PAGE THEME --- */
 .project-page--bazaarly {
+  font-family: 'Proxima Nova', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background:
     radial-gradient(circle at 12% 10%, rgba(235, 132, 70, 0.18), transparent 22%),
     radial-gradient(circle at 86% 10%, rgba(170, 181, 211, 0.34), transparent 24%),
@@ -3214,58 +3215,6 @@ h1, h2, h3, h4 {
 .project-page--bazaarly .bazaarly-palette__note {
   color: #605d61;
   line-height: 1.75;
-}
-
-.project-page--bazaarly .bazaarly-type {
-  display: grid;
-  gap: 14px;
-  margin-top: 22px;
-}
-
-.project-page--bazaarly .bazaarly-type__specimen {
-  display: grid;
-  gap: 10px;
-  padding: 18px 20px;
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid rgba(81, 98, 125, 0.08);
-  box-shadow: 0 16px 34px rgba(74, 86, 110, 0.06);
-}
-
-.project-page--bazaarly .bazaarly-type__label {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #eb8446;
-}
-
-.project-page--bazaarly .bazaarly-type__sample {
-  margin: 0;
-  color: #33425c;
-}
-
-.project-page--bazaarly .bazaarly-type__sample--fredoka {
-  font-family: 'Fredoka', 'Inter', sans-serif;
-  font-size: clamp(2rem, 3vw, 2.7rem);
-  font-weight: 600;
-  letter-spacing: -0.04em;
-}
-
-.project-page--bazaarly .bazaarly-type__sample--proxima {
-  font-family: 'Proxima Nova', 'Avenir Next', 'Segoe UI', sans-serif;
-  font-size: clamp(0.98rem, 1.8vw, 1.12rem);
-  font-weight: 600;
-  letter-spacing: 0.16em;
-  line-height: 1.5;
-  text-transform: uppercase;
-}
-
-.project-page--bazaarly .bazaarly-type__meta {
-  font-size: 0.82rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #6f7f9f;
 }
 
 .project-page--bazaarly .bazaarly-brand-mascot {
