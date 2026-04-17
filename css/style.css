@@ -865,6 +865,15 @@ h1, h2, h3, h4 {
   gap: 20px;
 }
 
+.project-gallery--case-study {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.project-gallery--case-study .project-gallery__item {
+  align-self: start;
+}
+
 .project-gallery__item {
   overflow: hidden;
   border-radius: 28px;
