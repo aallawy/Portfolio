@@ -732,6 +732,10 @@ h1, h2, h3, h4 {
   gap: 18px;
 }
 
+.project-hero__supporting-wide {
+  grid-column: 1 / -1;
+}
+
 .project-hero__supporting img,
 .project-gallery__item img {
   width: 100%;
