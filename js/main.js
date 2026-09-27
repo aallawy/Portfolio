@@ -30,20 +30,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-
-// FAQ Accordion
-const faqItems = document.querySelectorAll('.faq__item');
-faqItems.forEach(item => {
-  const question = item.querySelector('.faq__question');
-  question.addEventListener('click', () => {
-    const isOpen = item.classList.contains('faq__item--open');
-    faqItems.forEach(i => i.classList.remove('faq__item--open'));
-    if (!isOpen) {
-      item.classList.add('faq__item--open');
-    }
-  });
-});
-
 // Intersection Observer for scroll animations
 const observerOptions = {
   threshold: 0.1,
