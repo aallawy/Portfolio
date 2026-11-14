@@ -275,12 +275,6 @@ h1, h2, h3, h4 {
   margin-bottom: 36px;
 }
 
-.hero__actions {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
 .hero__visual {
   display: block;
   width: 100%;
@@ -373,48 +367,77 @@ h1, h2, h3, h4 {
   background: #f8f7f7;
 }
 
-/* --- WHY WORK WITH ME --- */
-.why-me {
+/* --- ABOUT: SKILLS & SOFTWARE --- */
+.skills {
   padding: 80px 0;
 }
 
-.why-me__grid {
+.skills__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
+  margin-top: 40px;
 }
 
-.why-me__card {
-  text-align: center;
-  padding: 40px 24px;
+.skills__card {
+  padding: 40px 32px;
   border-radius: 16px;
   background: #fff;
   border: 1px solid rgba(169, 146, 125, 0.15);
-  transition: all 0.3s ease;
 }
 
-.why-me__card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(71, 20, 30, 0.08);
-  border-color: rgba(169, 146, 125, 0.3);
-}
-
-.why-me__icon {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.why-me__card-title {
+.skills__card-title {
   font-size: 1.15rem;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
   color: #0c0b0a;
 }
 
-.why-me__card-text {
-  font-size: 0.9rem;
+.skills__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills__tags li {
+  padding: 8px 18px;
+  border-radius: 100px;
+  border: 1.5px solid rgba(71, 20, 30, 0.25);
+  font-size: 0.88rem;
+  color: #47141e;
+}
+
+.skills__software {
+  margin: 0;
+}
+
+.skills__software-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(169, 146, 125, 0.2);
+}
+
+.skills__software-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.skills__software-row dt {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #5f503f;
-  line-height: 1.7;
+}
+
+.skills__software-row dd {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #0c0b0a;
 }
 
 /* --- PORTFOLIO --- */
@@ -658,46 +681,6 @@ h1, h2, h3, h4 {
   padding: 6px 4px 0;
 }
 
-.project-card__cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 14px 4px 0;
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #47141e;
-}
-
-.project-card__cta::after {
-  content: '';
-  width: 22px;
-  height: 1px;
-  background: currentColor;
-}
-
-/* --- See All button --- */
-.btn--dark {
-  display: inline-block;
-  background: #0c0b0a;
-  color: #f8f7f7;
-  padding: 12px 32px;
-  border-radius: 50px;
-  font-size: 0.88rem;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.btn--dark:hover {
-  background: #47141e;
-}
-
-.portfolio__cta {
-  text-align: center;
-  margin-top: 56px;
-}
-
 /* --- PROJECT DETAIL PAGES --- */
 .project-page {
   background:
@@ -805,12 +788,6 @@ h1, h2, h3, h4 {
   font-size: 0.95rem;
   font-weight: 600;
   color: #0c0b0a;
-}
-
-.project-hero__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
 }
 
 .project-hero__details {
@@ -3719,9 +3696,14 @@ h1, h2, h3, h4 {
     font-size: clamp(2rem, 8vw, 3rem);
   }
 
-  .why-me__grid {
+  .skills__grid {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .skills__software-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .portfolio__grid {
@@ -3746,14 +3728,6 @@ h1, h2, h3, h4 {
 
   .hero__content {
     padding-top: 8px;
-  }
-
-  .project-hero__actions {
-    flex-direction: column;
-  }
-
-  .hero__actions {
-    flex-direction: column;
   }
 
   .btn {
