@@ -7,18 +7,20 @@
   <link rel="icon" type="image/svg+xml" href="assets/WordmakP03_1.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=20261111-portfolio">
+  <link rel="stylesheet" href="css/refine.css?v=20261111-editorial">
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
 
   <!-- ===================== NAVBAR ===================== -->
   <header class="navbar" id="top">
     <div class="navbar__inner">
-      <a href="#top" class="navbar__logo">
-        <img src="assets/wordmark-burgundy-full.png" alt="Alisa Allawy" class="navbar__logo-img">
-      </a>
-      <button class="nav__toggle" aria-label="Toggle menu">
+      <a href="#top" class="navbar__logo navbar__brand" aria-label="Alisa Allawy, home">Alisa Allawy</a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <nav class="nav">
@@ -29,11 +31,11 @@
   </header>
 
   <!-- ===================== HERO ===================== -->
+  <main id="main">
   <section class="hero">
     <div class="hero__inner">
       <div class="hero__content">
-        <img src="assets/WordmakP03_1.svg" alt="Decorative wordmark symbol" class="hero__brandmark">
-        <h1 class="hero__title">Alisa Allawy</h1>
+        <h1 class="hero__title">Alisa <em>Allawy</em></h1>
         <p class="hero__label">Multimedia Designer</p>
         <p class="hero__subtitle">Crafting compelling visual stories through UX design, branding, 3D, motion, and editorial design — bringing ideas to life across every medium.</p>
       </div>
@@ -118,6 +120,7 @@
   <!-- ===================== ABOUT: SKILLS & SOFTWARE ===================== -->
   <section class="skills reveal" id="about">
     <div class="container">
+      <p class="eyebrow">01 &mdash; About</p>
       <h2 class="section__title">Skills &amp; software</h2>
       <div class="skills__grid">
         <div class="skills__card">
@@ -160,9 +163,9 @@
   <!-- ===================== PORTFOLIO ===================== -->
   <section class="portfolio reveal" id="work">
     <div class="container">
-      <span class="portfolio__label">My Portfolio</span>
-      <h2 class="section__title">A glimpse through my<br>perspective</h2>
-      <p class="portfolio__subtitle">Selected projects across UX, branding, motion,<br>3D, and editorial design.</p>
+      <p class="eyebrow">02 &mdash; Selected work</p>
+      <h2 class="section__title">Selected work</h2>
+      <p class="portfolio__subtitle">Selected projects across UX, branding, motion,3D, and editorial design.</p>
       <div class="portfolio__grid">
 
         <!-- Project 1: UX Design -->
@@ -336,9 +339,10 @@
       </div>
     </div>
   </section>
+  </main>
 
   <!-- ===================== MARQUEE ===================== -->
-  <section class="marquee">
+  <section class="marquee" aria-hidden="true">
     <div class="marquee__track">
       <span class="marquee__item">UX Design</span>
       <span class="marquee__separator">&bull;</span>
@@ -385,13 +389,6 @@
           <h4 class="footer__heading">Navigation</h4>
           <a href="#about" class="footer__link">About</a>
           <a href="#work" class="footer__link">Work</a>
-        </div>
-        <div class="footer__col">
-          <h4 class="footer__heading">Social</h4>
-          <a href="#" class="footer__link">Behance</a>
-          <a href="#" class="footer__link">Dribbble</a>
-          <a href="#" class="footer__link">LinkedIn</a>
-          <a href="#" class="footer__link">Instagram</a>
         </div>
       </div>
       <div class="footer__bottom">
