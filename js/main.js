@@ -16,7 +16,8 @@ const menuToggle = document.querySelector('.nav__toggle');
 const nav = document.querySelector('.nav');
 if (menuToggle) {
   menuToggle.addEventListener('click', () => {
-    nav.classList.toggle('nav--open');
+    const open = nav.classList.toggle('nav--open');
+    menuToggle.setAttribute('aria-expanded', open);
   });
 }
 
@@ -118,6 +119,7 @@ if (heroSlideshow) {
     }
 
     slideshowTimer = window.setInterval(() => {
+      if (heroSlideshow.dataset.paused === "true") return;
       const nextSlide = (currentSlide + 1) % slides.length;
       showSlide(nextSlide);
     }, 2000);
@@ -126,3 +128,40 @@ if (heroSlideshow) {
   showSlide(0);
   startSlideshow();
 }
+
+// Scroll progress, scrollspy, slideshow pause (WCAG 2.2.2)
+(() => {
+  const bar = document.querySelector('.progress');
+  const links = [...document.querySelectorAll('.nav__link[href^="#"]')];
+  const onScroll = () => {
+    const max = document.documentElement.scrollHeight - innerHeight;
+    if (bar && max > 0) bar.style.transform = `scaleX(${Math.min(scrollY / max, 1)})`;
+    links.forEach(l => {
+      const t = document.querySelector(l.getAttribute('href'));
+      const r = t && t.getBoundingClientRect();
+      l.setAttribute('aria-current', !!r && r.top < innerHeight * .4 && r.bottom > innerHeight * .4);
+    });
+  };
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  const show = document.querySelector('.hero__slideshow');
+  if (show) {
+    const b = document.createElement('button');
+    b.className = 'hero__pause'; b.type = 'button'; b.textContent = 'Pause';
+    b.setAttribute('aria-label', 'Pause slideshow');
+    b.addEventListener('click', () => {
+      const p = show.dataset.paused !== 'true';
+      show.dataset.paused = p; b.textContent = p ? 'Play' : 'Pause';
+      b.setAttribute('aria-label', p ? 'Play slideshow' : 'Pause slideshow');
+    });
+    show.appendChild(b);
+  }
+})();
+
+// Close mobile menu on Escape or outside tap
+(() => {
+  const n = document.querySelector('.nav'), t = document.querySelector('.nav__toggle');
+  if (!n || !t) return;
+  const close = () => { n.classList.remove('nav--open'); t.setAttribute('aria-expanded', 'false'); };
+  addEventListener('keydown', e => { if (e.key === 'Escape') { close(); t.focus(); } });
+  document.addEventListener('click', e => { if (!n.contains(e.target) && !t.contains(e.target)) close(); });
+})();

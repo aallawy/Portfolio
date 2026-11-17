@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: #f8f7f7;
   color: #0c0b0a;
   line-height: 1.6;
@@ -58,7 +58,7 @@ button {
 
 /* --- TYPOGRAPHY --- */
 h1, h2, h3, h4 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -1087,7 +1087,7 @@ h1, h2, h3, h4 {
   display: block;
   margin-bottom: 8px;
   font-size: 2.3rem;
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-weight: 600;
 }
 
@@ -2963,7 +2963,7 @@ h1, h2, h3, h4 {
 
 /* --- BAZAARLY UX PAGE THEME --- */
 .project-page--bazaarly {
-  font-family: 'Proxima Nova', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Proxima Nova', 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   background:
     radial-gradient(circle at 12% 10%, rgba(235, 132, 70, 0.18), transparent 22%),
     radial-gradient(circle at 86% 10%, rgba(170, 181, 211, 0.34), transparent 24%),
@@ -3060,7 +3060,7 @@ h1, h2, h3, h4 {
 }
 
 .project-page--bazaarly .project-hero__title {
-  font-family: 'Fredoka', 'Inter', sans-serif;
+  font-family: 'Fredoka', 'Instrument Sans', sans-serif;
   font-weight: 600;
   letter-spacing: -0.04em;
   max-width: 8ch;
@@ -3349,7 +3349,7 @@ h1, h2, h3, h4 {
 }
 
 .marquee__item {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: clamp(1.2rem, 2.5vw, 1.8rem);
   font-weight: 400;
   color: #f8f7f7;
@@ -3408,7 +3408,7 @@ h1, h2, h3, h4 {
 }
 
 .footer__heading {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
