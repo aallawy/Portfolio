@@ -12,7 +12,8 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
 .navbar__logo-img{display:none}
 .navbar__brand{display:flex;align-items:center;gap:10px;font-family:'Fraunces',Georgia,serif;font-size:1.05rem;font-weight:500;color:var(--burgundy);text-decoration:none;min-height:44px}
 .navbar__logo.navbar__brand{width:auto;height:auto;overflow:visible;margin-right:28px;white-space:nowrap}
-.navbar__brand::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--burgundy)}
+.navbar__brand::before{content:"";width:10px;height:10px;border-radius:50%;background:currentColor}
+[class*="project-page"] .navbar__brand{color:#f3ece4}
 .nav__link{font-family:var(--mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;min-height:44px;display:inline-flex;align-items:center;position:relative}
 .nav__link::after{content:"";position:absolute;left:0;right:0;bottom:8px;height:1.5px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease)}
 .nav__link:hover::after,.nav__link[aria-current="true"]::after{transform:scaleX(1)}
