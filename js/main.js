@@ -82,7 +82,6 @@ if (heroSlideshow) {
   const slideshowNav = heroSlideshow.querySelector('.hero__slideshow-nav');
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let currentSlide = 0;
-  let slideshowTimer = null;
   const dots = [];
 
   if (slideshowNav) {
@@ -118,7 +117,7 @@ if (heroSlideshow) {
       return;
     }
 
-    slideshowTimer = window.setInterval(() => {
+    window.setInterval(() => {
       if (heroSlideshow.dataset.paused === "true") return;
       const nextSlide = (currentSlide + 1) % slides.length;
       showSlide(nextSlide);
