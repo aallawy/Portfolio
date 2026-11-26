@@ -443,14 +443,14 @@ h1, h2, h3, h4 {
 }
 
 .project-card__image--naturcycle {
-  background:
-    radial-gradient(circle at 18% 16%, rgba(185, 195, 181, 0.2), transparent 22%),
-    radial-gradient(circle at 82% 14%, rgba(62, 83, 74, 0.14), transparent 18%),
-    linear-gradient(135deg, #233c32 0%, #2d4a3e 52%, #3e534a 100%);
+  background: #233c32;
 }
 
 .project-card__image--naturcycle img {
-  object-position: center 28%;
+  width: 62%;
+  height: 62%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .project-card:hover .project-card__image svg,
@@ -1631,7 +1631,7 @@ h1, h2, h3, h4 {
 }
 
 .project-page--arcane .project-hero__meta-card span {
-  color: rgba(244, 233, 215, 0.6);
+  color: rgba(244, 233, 215, 0.62);
 }
 
 .project-page--arcane .project-hero__meta-card strong {
@@ -1662,18 +1662,6 @@ h1, h2, h3, h4 {
   color: #f4e9d7;
 }
 
-.project-page--arcane #details {
-  padding-top: 32px;
-}
-
-.project-page--arcane #details .project-section__grid {
-  align-items: start;
-}
-
-.project-page--arcane #details .project-panel {
-  padding-top: 40px;
-}
-
 .project-page--arcane .project-panel:not(.project-panel--accent) p {
   color: rgba(244, 233, 215, 0.76);
 }
@@ -1699,7 +1687,6 @@ h1, h2, h3, h4 {
 .project-page--arcane .project-section--soft {
   background:
     radial-gradient(circle at 16% 12%, rgba(215, 166, 89, 0.1), transparent 20%),
-    radial-gradient(circle at 86% 16%, rgba(89, 185, 176, 0.08), transparent 18%),
     linear-gradient(180deg, #151425 0%, #0d0f15 100%);
 }
 
